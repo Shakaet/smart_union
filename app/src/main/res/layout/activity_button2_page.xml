@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="#16344C"
+    android:background="#4CAF50"
     tools:context=".button2Page">
 
 
@@ -17,7 +17,7 @@
         android:layout_height="60dp"
         android:textSize="28dp"
         android:textStyle="bold|italic"
-        android:backgroundTint="#B0C0CD"
+        android:backgroundTint="@color/black"
         android:layout_marginLeft="80dp"
         android:layout_marginRight="80dp"
         android:text="সাবেক">
@@ -31,7 +31,7 @@
         android:layout_height="60dp"
         android:textSize="28dp"
         android:textStyle="bold|italic"
-        android:backgroundTint="#B0C0CD"
+        android:backgroundTint="@color/black"
         android:layout_marginLeft="80dp"
         android:layout_marginRight="80dp"
         android:text="বর্তমান">

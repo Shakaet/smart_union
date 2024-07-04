@@ -3,92 +3,91 @@ package com.example.smart_union;
 import android.app.ActivityOptions;
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Patterns;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import androidx.activity.EdgeToEdge;
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
+import com.google.android.gms.tasks.OnFailureListener;
+import com.google.android.gms.tasks.OnSuccessListener;
+import com.google.firebase.auth.AuthResult;
+import com.google.firebase.auth.FirebaseAuth;
+
 public class login extends AppCompatActivity {
 
-    EditText email,ward,nid,password;
+    private FirebaseAuth auth;
+    private EditText loginEmail, loginPassword;
+    private TextView signupRedirectText;
+    private Button loginButton;
 
-    Button login;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
-        email=findViewById(R.id.email);
-        ward=findViewById(R.id.ward);
-        nid=findViewById(R.id.nid);
-        password=findViewById(R.id.password);
-        login=findViewById(R.id.log);
+        auth = FirebaseAuth.getInstance();
+        loginEmail = findViewById(R.id.login_email);
+        loginPassword = findViewById(R.id.login_password);
+        loginButton = findViewById(R.id.login_button);
+        signupRedirectText = findViewById(R.id.signUpRedirectText);
 
-        login.setOnClickListener(new View.OnClickListener() {
+        loginButton.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View v) {
-                String a = email.getText().toString().trim();
-                String b = ward.getText().toString().trim();
-                String c = nid.getText().toString().trim();
-                String d = password.getText().toString().trim();
+            public void onClick(View view) {
+                String email = loginEmail.getText().toString();
+                String pass = loginPassword.getText().toString();
 
-                if (a.equals("emon@gmail.com") && b.equals("02") && c.equals("2404098465") && d.equals("12345678")){
-
-                    Toast.makeText(login.this, "Login Successful", Toast.LENGTH_SHORT).show();
-
-                    Intent ii = new Intent(login.this, homepage.class);
-
-                    Bundle translatebundle= ActivityOptions.makeCustomAnimation(login.this,
-                            R.anim.slide_in_right,
-                            R.anim.slide_out_left).toBundle();
-
+                if(!email.isEmpty() && Patterns.EMAIL_ADDRESS.matcher(email).matches()) {
+                    if (!pass.isEmpty()) {
+                        auth.signInWithEmailAndPassword(email, pass)
+                                .addOnSuccessListener(new OnSuccessListener<AuthResult>() {
+                                    @Override
+                                    public void onSuccess(AuthResult authResult) {
+                                        Toast.makeText(login.this, "Login Successful", Toast.LENGTH_SHORT).show();
+                                        Bundle translatebundle= ActivityOptions.makeCustomAnimation(login.this,
+                                                R.anim.slide_in_right,
+                                                R.anim.slide_out_left).toBundle();
 
 
-                    startActivity(ii,translatebundle);
+                                        startActivity(new Intent(login.this, homepage.class ),translatebundle);
+                                        finish();
 
-                }
-                else if(a.equals("habib@gmail.com") && b.equals("03") && c.equals("123456") && d.equals("12345678")){
+                                    }
+                                }).addOnFailureListener(new OnFailureListener() {
+                                    @Override
+                                    public void onFailure(@NonNull Exception e) {
+                                        Toast.makeText(login.this, "Login Failed", Toast.LENGTH_SHORT).show();
+                                    }
+                                });
+                    } else {
+                        loginPassword.setError("Password cannot be empty");
+                    }
 
-                    Toast.makeText(login.this, "Login Successful", Toast.LENGTH_SHORT).show();
-
-                    Intent ii = new Intent(login.this, homepage.class);
-
-                    Bundle translatebundle= ActivityOptions.makeCustomAnimation(login.this,
-                            R.anim.slide_in_right,
-                            R.anim.slide_out_left).toBundle();
-
-
-
-                    startActivity(ii,translatebundle);
-
-                }
-                else if(a.equals("oni@gmail.com") && b.equals("04") && c.equals("123456") && d.equals("12345678")){
-
-                    Toast.makeText(login.this, "Login Successful", Toast.LENGTH_SHORT).show();
-
-                    Intent ii = new Intent(login.this, homepage.class);
-
-                    Bundle translatebundle= ActivityOptions.makeCustomAnimation(login.this,
-                            R.anim.slide_in_right,
-                            R.anim.slide_out_left).toBundle();
-
-
-
-                    startActivity(ii,translatebundle);
-
-                }
-
-                else {
-                    Toast.makeText(login.this, "Login Failed", Toast.LENGTH_SHORT).show();
+                } else if (email.isEmpty()) {
+                    loginEmail.setError("Email cannot be empty");
+                } else {
+                    loginEmail.setError("Please enter a valid email");
                 }
             }
         });
+        signupRedirectText.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(login.this, sign_up.class));
+            }
+        });
+
+
+
 
 
 

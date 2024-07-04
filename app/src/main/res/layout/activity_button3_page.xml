@@ -6,37 +6,37 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="#4CAF50"
+    android:background="#9C27B0"
     tools:context=".button3Page">
 
 
     <Button
-        android:id="@+id/but1"
-        android:layout_marginTop="180dp"
+        android:layout_marginTop="140dp"
         android:layout_width="match_parent"
-        android:layout_height="60dp"
-        android:textSize="28dp"
-        android:textStyle="bold|italic"
-        android:backgroundTint="@color/black"
-        android:layout_marginLeft="80dp"
-        android:layout_marginRight="80dp"
-        android:text="সাবেক">
-
-    </Button>
+        android:layout_height="200dp"
+        android:background="#4CAF50"
+        android:drawableTop="@drawable/human"
+        android:id="@+id/but1"
+        android:paddingTop="15sp"
+        android:textColor="#FFC107"
+        android:textStyle="bold"
+        android:drawablePadding="15sp"
+        android:textSize="25dp"
+        android:text="সাবেক"></Button>
 
     <Button
-        android:id="@+id/but2"
-        android:layout_marginTop="180dp"
+        android:layout_marginTop="80dp"
         android:layout_width="match_parent"
-        android:layout_height="60dp"
-        android:textSize="28dp"
-        android:textStyle="bold|italic"
-        android:backgroundTint="@color/black"
-        android:layout_marginLeft="80dp"
-        android:layout_marginRight="80dp"
-        android:text="বর্তমান">
-
-    </Button>
+        android:layout_height="200dp"
+        android:background="#4CAF50"
+        android:drawableTop="@drawable/human"
+        android:id="@+id/but2"
+        android:paddingTop="15sp"
+        android:textColor="#FFC107"
+        android:textStyle="bold"
+        android:drawablePadding="15sp"
+        android:textSize="25dp"
+        android:text="বর্তমান"></Button>
 
 
 </LinearLayout>

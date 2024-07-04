@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#4CAF50"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="স্বাগতম"
+        android:textAlignment="center"
+        android:textColor="#F44336"
+        android:textSize="80dp"
+        android:textStyle="bold">
+
+    </TextView>
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="325dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/union2">
+
+    </ImageView>
+
+    <TextView
+        android:id="@+id/textview"
+        android:layout_width="match_parent"
+        android:layout_height="99dp"
+        android:layout_marginTop="20dp"
+        android:text="ডিজিটাল বাংলাদেশ,ডিজিটাল ইউনিয়ন।ঘরে বসে,সেবা নিন।"
+        android:textAlignment="center"
+        android:textColor="#F44336"
+        android:textSize="20dp"
+        android:textStyle="bold">
+
+    </TextView>
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="187dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="70dp"
+        android:text="Log in"
+        android:textAlignment="center"
+        android:textColor="#F44336"
+        android:textSize="30dp"
+        android:textStyle="bold">
+
+    </Button>
+
+    <Button
+        android:id="@+id/signup"
+        android:layout_width="187dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="70dp"
+        android:text="Sign up"
+        android:textAlignment="center"
+        android:textColor="#F44336"
+        android:textSize="30dp"
+        android:textStyle="bold">
+
+    </Button>
+
+
+</LinearLayout>

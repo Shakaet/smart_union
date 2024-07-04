@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#4CAF50"
+    tools:context=".sign_up">
+
+    <ImageView
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:background="@drawable/union1">
+
+    </ImageView>
+
+    <EditText
+
+        android:id="@+id/fname"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="First Name"
+        android:paddingLeft="10dp"
+        android:textStyle="bold"
+        android:textSize="20dp">
+
+    </EditText>
+
+
+    <EditText
+
+        android:id="@+id/lname"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Last Name"
+        android:paddingLeft="10dp"
+        android:textStyle="bold"
+        android:textSize="20dp">
+
+    </EditText>
+
+    <EditText
+
+        android:id="@+id/email"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email/Mobile Number"
+        android:paddingLeft="10dp"
+        android:textStyle="bold"
+        android:textSize="20dp">
+
+    </EditText>
+
+    <EditText
+
+        android:id="@+id/ward"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ward No"
+        android:paddingLeft="10dp"
+        android:textStyle="bold"
+        android:textSize="20dp">
+
+    </EditText>
+
+    <EditText
+
+        android:id="@+id/nid"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="NID / Birth Registration No"
+        android:paddingLeft="10dp"
+        android:textStyle="bold"
+        android:textSize="20dp">
+
+    </EditText>
+
+    <EditText
+
+        android:id="@+id/holding"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Holding No"
+        android:paddingLeft="10dp"
+        android:textStyle="bold"
+        android:textSize="20dp">
+
+    </EditText>
+
+    <EditText
+
+        android:id="@+id/pass"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:paddingLeft="10dp"
+        android:textStyle="bold"
+        android:textSize="20dp">
+
+    </EditText>
+
+    <EditText
+
+        android:id="@+id/conpass"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint=" Confirm Password"
+        android:paddingLeft="10dp"
+        android:textStyle="bold"
+        android:textSize="20dp">
+
+    </EditText>
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+
+        android:id="@+id/signup"
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="23dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="100dp"
+        android:layout_gravity="center"
+        android:textColor="#FFD740"
+        android:text="Sign Up">
+
+    </Button>
+
+    <TextView
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Already have an account?\nlog in"
+        android:textAlignment="center"
+        android:textStyle="bold|italic"
+        android:textColor="#7C4DFF"
+        android:textSize="21dp">
+
+    </TextView>
+
+</LinearLayout>

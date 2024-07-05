@@ -10,33 +10,148 @@
     tools:context=".button3Page">
 
 
-    <Button
-        android:layout_marginTop="140dp"
-        android:layout_width="match_parent"
-        android:layout_height="200dp"
-        android:background="#4CAF50"
-        android:drawableTop="@drawable/human"
-        android:id="@+id/but1"
-        android:paddingTop="15sp"
-        android:textColor="#FFC107"
-        android:textStyle="bold"
-        android:drawablePadding="15sp"
-        android:textSize="25dp"
-        android:text="সাবেক"></Button>
+
+
+
+
+
+
+            <Button
+                android:id="@+id/but1"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="80dp"
+                android:layout_marginRight="10dp"
+                android:backgroundTint="@color/black"
+                android:text="১ নং ওয়ার্ড"
+                android:textSize="22dp"
+                android:textStyle="bold">
+
+            </Button>
+
+            <Button
+                android:id="@+id/but2"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:backgroundTint="@color/black"
+                android:text="২ নং ওয়ার্ড"
+                android:textSize="22dp"
+                android:textStyle="bold">
+
+            </Button>
+
+
+
+
+
+            <Button
+                android:id="@+id/but3"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:backgroundTint="@color/black"
+                android:text="৩ নং ওয়ার্ড"
+                android:textSize="22dp"
+                android:textStyle="bold">
+
+            </Button>
+
+            <Button
+                android:id="@+id/but4"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:backgroundTint="@color/black"
+                android:text="৪ নং ওয়ার্ড"
+                android:textSize="22dp"
+                android:textStyle="bold">
+
+            </Button>
+
+
+
+
+
+            <Button
+                android:id="@+id/but5"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:backgroundTint="@color/black"
+                android:layout_marginRight="10dp"
+                android:text="৫ নং ওয়ার্ড"
+                android:textSize="22dp"
+                android:textStyle="bold">
+
+            </Button>
+
+            <Button
+                android:id="@+id/but6"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:backgroundTint="@color/black"
+                android:text="৬ নং ওয়ার্ড"
+                android:textSize="22dp"
+                android:textStyle="bold">
+
+            </Button>
+
+
+            <Button
+                android:id="@+id/but7"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:backgroundTint="@color/black"
+                android:text="৭ নং ওয়ার্ড"
+                android:textSize="22dp"
+                android:textStyle="bold">
+
+            </Button>
+
+            <Button
+                android:id="@+id/but8"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:backgroundTint="@color/black"
+                android:text="৮ নং ওয়ার্ড"
+                android:textSize="22dp"
+                android:textStyle="bold">
+
+            </Button>
 
     <Button
-        android:layout_marginTop="80dp"
+        android:id="@+id/but9"
         android:layout_width="match_parent"
-        android:layout_height="200dp"
-        android:background="#4CAF50"
-        android:drawableTop="@drawable/human"
-        android:id="@+id/but2"
-        android:paddingTop="15sp"
-        android:textColor="#FFC107"
-        android:textStyle="bold"
-        android:drawablePadding="15sp"
-        android:textSize="25dp"
-        android:text="বর্তমান"></Button>
+        android:layout_height="60dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:backgroundTint="@color/black"
+        android:text="৯ নং ওয়ার্ড"
+        android:textSize="22dp"
+        android:textStyle="bold">
+
+    </Button>
+
+
 
 
 </LinearLayout>

@@ -1,143 +1,156 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                     android:fillViewport="true">
-
-
-
-
-<LinearLayout
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:background="#4CAF50"
-    tools:context=".buttonPage">
+    android:fillViewport="true">
 
-    <Button
+
+
+
+    <LinearLayout
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/main"
         android:layout_width="match_parent"
-        android:layout_height="190dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
         android:background="#4CAF50"
-        android:drawableTop="@drawable/human"
+        tools:context=".buttonPage">
 
-        android:id="@+id/but1"
-        android:paddingTop="15sp"
-        android:drawablePadding="15sp"
-        android:textSize="25dp"
-        android:textColor="#FFC107"
-        android:textStyle="bold"
-        android:text="ইউপি চেয়ারম্যান"></Button>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="190dp"
+            android:background="#4CAF50"
+            android:drawableTop="@drawable/human"
+            android:id="@+id/but1"
+            android:paddingTop="15sp"
+            android:drawablePadding="15sp"
+            android:textSize="25dp"
+            android:textColor="#FFC107"
+            android:textStyle="bold"
+            android:text="ইউপি চেয়ারম্যান"></Button>
 
-    <Button
-        android:layout_marginTop="5dp"
-        android:layout_width="match_parent"
-        android:layout_height="190dp"
-        android:background="#4CAF50"
-        android:drawableTop="@drawable/human"
-        android:id="@+id/but2"
-        android:paddingTop="15sp"
-        android:textColor="#FFC107"
-        android:textStyle="bold"
-        android:drawablePadding="15sp"
-        android:textSize="25dp"
-        android:text="ইউপি সদস্য ও সদস্য"></Button>
+        <Button
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="190dp"
+            android:background="#4CAF50"
+            android:drawableTop="@drawable/human"
+            android:id="@+id/but2"
+            android:paddingTop="15sp"
+            android:textColor="#FFC107"
+            android:textStyle="bold"
+            android:drawablePadding="15sp"
+            android:textSize="25dp"
+            android:text="ইউপি সদস্য"></Button>
 
-    <Button
-        android:layout_marginTop="5dp"
-        android:layout_width="match_parent"
-        android:layout_height="190dp"
-        android:background="#4CAF50"
-        android:drawableTop="@drawable/human"
-        android:id="@+id/but3"
-        android:paddingTop="15sp"
-        android:textColor="#FFC107"
-        android:textStyle="bold"
-        android:drawablePadding="15sp"
-        android:textSize="25dp"
-        android:text="ইউপি সচিব"></Button>
+        <Button
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="190dp"
+            android:background="#4CAF50"
+            android:drawableTop="@drawable/human_women"
+            android:id="@+id/but_women"
+            android:paddingTop="15sp"
+            android:textColor="#FFC107"
+            android:textStyle="bold"
+            android:drawablePadding="15sp"
+            android:textSize="25dp"
+            android:text="ইউপি সদস্যা"></Button>
 
-    <Button
-        android:layout_marginTop="5dp"
-        android:layout_width="match_parent"
-        android:layout_height="190dp"
-        android:background="#4CAF50"
-        android:drawableTop="@drawable/human"
-        android:id="@+id/but4"
-        android:paddingTop="15sp"
-        android:textColor="#FFC107"
-        android:textStyle="bold"
-        android:drawablePadding="15sp"
-        android:textSize="25dp"
-        android:text="গ্রাম পুলিশ"></Button>
+        <Button
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="190dp"
+            android:background="#4CAF50"
+            android:drawableTop="@drawable/human"
+            android:id="@+id/but3"
+            android:paddingTop="15sp"
+            android:textColor="#FFC107"
+            android:textStyle="bold"
+            android:drawablePadding="15sp"
+            android:textSize="25dp"
+            android:text="ইউপি সচিব"></Button>
 
-    <Button
-        android:layout_marginTop="5dp"
-        android:layout_width="match_parent"
-        android:layout_height="190dp"
-        android:background="#4CAF50"
-        android:drawableTop="@drawable/human"
-        android:id="@+id/but5"
-        android:paddingTop="15sp"
-        android:textColor="#FFC107"
-        android:textStyle="bold"
-        android:drawablePadding="15sp"
-        android:textSize="25dp"
-        android:text="কৃষি কর্মকর্তা"></Button>
+        <Button
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="190dp"
+            android:background="#4CAF50"
+            android:drawableTop="@drawable/human"
+            android:id="@+id/but4"
+            android:paddingTop="15sp"
+            android:textColor="#FFC107"
+            android:textStyle="bold"
+            android:drawablePadding="15sp"
+            android:textSize="25dp"
+            android:text="গ্রাম পুলিশ"></Button>
 
-    <Button
-        android:layout_marginTop="5dp"
-        android:layout_width="match_parent"
-        android:layout_height="190dp"
-        android:background="#4CAF50"
-        android:drawableTop="@drawable/human"
-        android:id="@+id/but6"
-        android:paddingTop="15sp"
-        android:textColor="#FFC107"
-        android:textStyle="bold"
-        android:drawablePadding="15sp"
-        android:textSize="25dp"
-        android:text="নাগরিক সেবা"></Button>
+        <Button
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="190dp"
+            android:background="#4CAF50"
+            android:drawableTop="@drawable/human"
+            android:id="@+id/but5"
+            android:paddingTop="15sp"
+            android:textColor="#FFC107"
+            android:textStyle="bold"
+            android:drawablePadding="15sp"
+            android:textSize="25dp"
+            android:text="কৃষি কর্মকর্তা"></Button>
 
-    <Button
-        android:layout_marginTop="5dp"
-        android:layout_width="match_parent"
-        android:layout_height="190dp"
-        android:background="#4CAF50"
-        android:drawableTop="@drawable/human"
-        android:id="@+id/but7"
-        android:paddingTop="15sp"
-        android:textColor="#FFC107"
-        android:textStyle="bold"
-        android:drawablePadding="15sp"
-        android:textSize="25dp"
-        android:text="অন্যান্য তথ্যসেবা"></Button>
+        <Button
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="190dp"
+            android:background="#4CAF50"
+            android:drawableTop="@drawable/human"
+            android:id="@+id/but6"
+            android:paddingTop="15sp"
+            android:textColor="#FFC107"
+            android:textStyle="bold"
+            android:drawablePadding="15sp"
+            android:textSize="25dp"
+            android:text="নাগরিক সেবা"></Button>
 
-
-    <Button
-        android:layout_marginTop="5dp"
-        android:layout_width="match_parent"
-        android:layout_height="190dp"
-        android:background="#4CAF50"
-        android:drawableTop="@drawable/human"
-        android:id="@+id/but8"
-        android:paddingTop="15sp"
-        android:textColor="#FFC107"
-        android:textStyle="bold"
-        android:drawablePadding="15sp"
-        android:textSize="25dp"
-        android:text="ইউনিয়ন পরিষদের ফেইসবুক পেইজ"></Button>
-
+        <Button
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="190dp"
+            android:background="#4CAF50"
+            android:drawableTop="@drawable/human"
+            android:id="@+id/but7"
+            android:paddingTop="15sp"
+            android:textColor="#FFC107"
+            android:textStyle="bold"
+            android:drawablePadding="15sp"
+            android:textSize="25dp"
+            android:text="অন্যান্য তথ্যসেবা"></Button>
 
 
+        <Button
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="190dp"
+            android:background="#4CAF50"
+            android:drawableTop="@drawable/human"
+            android:id="@+id/but8"
+            android:paddingTop="15sp"
+            android:textColor="#FFC107"
+            android:textStyle="bold"
+            android:drawablePadding="15sp"
+            android:textSize="25dp"
+            android:text="ইউনিয়ন পরিষদের ফেইসবুক পেইজ"></Button>
 
 
 
 
-</LinearLayout>
+
+
+
+    </LinearLayout>
 
 
 </ScrollView>

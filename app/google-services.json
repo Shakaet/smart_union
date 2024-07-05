@@ -1,13 +1,13 @@
 {
   "project_info": {
-    "project_number": "341615680791",
-    "project_id": "login-signup-ea15c",
-    "storage_bucket": "login-signup-ea15c.appspot.com"
+    "project_number": "869229450877",
+    "project_id": "smart-union-4296d",
+    "storage_bucket": "smart-union-4296d.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:341615680791:android:c1e1d08f8b43b4abaceb52",
+        "mobilesdk_app_id": "1:869229450877:android:2ec9b37e6ef39b92858314",
         "android_client_info": {
           "package_name": "com.example.smart_union"
         }
@@ -15,7 +15,7 @@
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyBxH9b2v3Xy6ZR6cWsqxl7nXqI3d16GfN8"
+          "current_key": "AIzaSyBRX-N-pyVPhXuFzXX8z3LXJ1M05FTw-JQ"
         }
       ],
       "services": {

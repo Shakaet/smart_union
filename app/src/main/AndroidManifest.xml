@@ -13,6 +13,42 @@
         android:theme="@style/Theme.Smart_Union"
         tools:targetApi="31">
         <activity
+            android:name=".word789"
+            android:exported="false" />
+        <activity
+            android:name=".word456"
+            android:exported="false" />
+        <activity
+            android:name=".word123"
+            android:exported="false" />
+        <activity
+            android:name=".word9"
+            android:exported="false" />
+        <activity
+            android:name=".word8"
+            android:exported="false" />
+        <activity
+            android:name=".word7"
+            android:exported="false" />
+        <activity
+            android:name=".word6"
+            android:exported="false" />
+        <activity
+            android:name=".word5"
+            android:exported="false" />
+        <activity
+            android:name=".word4"
+            android:exported="false" />
+        <activity
+            android:name=".word3"
+            android:exported="false" />
+        <activity
+            android:name=".word2"
+            android:exported="false" />
+        <activity
+            android:name=".word1"
+            android:exported="false" />
+        <activity
             android:name=".button_women"
             android:exported="false" />
         <activity

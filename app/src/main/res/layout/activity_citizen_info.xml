@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
     xmlns:tools="http://schemas.android.com/tools"
+    android:fillViewport="true">
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -39,10 +47,11 @@
                     android:id="@+id/but1"
                     android:paddingTop="15sp"
                     android:drawablePadding="15sp"
-                    android:textSize="25dp"
+                    android:textSize="20sp"
                     android:textColor="#FFC107"
                     android:layout_weight="1"
                     android:textStyle="bold"
+
                     android:text="অভিযোগ"></Button>
 
                 <Button
@@ -54,7 +63,7 @@
                     android:id="@+id/but2"
                     android:paddingTop="15sp"
                     android:drawablePadding="15sp"
-                    android:textSize="25dp"
+                    android:textSize="20sp"
                     android:textColor="#FFC107"
                     android:layout_weight="1"
                     android:textStyle="bold"
@@ -63,74 +72,434 @@
 
             </LinearLayout>
 
+
             <LinearLayout
+                android:layout_marginTop="10dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
                 android:layout_weight="2">
 
                 <Button
-                    android:layout_marginTop="17dp"
                     android:layout_width="match_parent"
                     android:layout_height="250dp"
                     android:background="#4CAF50"
-                    android:drawableTop="@drawable/blood"
+                    android:drawableTop="@drawable/jonmo_abedon"
                     android:id="@+id/but3"
                     android:paddingTop="15sp"
                     android:drawablePadding="15sp"
-                    android:textSize="25dp"
+                    android:textSize="20sp"
                     android:textColor="#FFC107"
                     android:layout_weight="1"
                     android:textStyle="bold"
-                    android:text="ব্লাড ব্যাংক"></Button>
+                    android:text="জন্ম-নিবন্ধন আবেদন">
+
+                </Button>
 
                 <Button
                     android:layout_marginLeft="10dp"
                     android:layout_width="match_parent"
                     android:layout_height="250dp"
                     android:background="#4CAF50"
-                    android:drawableTop="@drawable/govt1"
+                    android:drawableTop="@drawable/jonmo_shong"
                     android:id="@+id/but4"
                     android:paddingTop="15sp"
                     android:drawablePadding="15sp"
-                    android:textSize="25dp"
+                    android:textSize="20sp"
                     android:textColor="#FFC107"
                     android:layout_weight="1"
                     android:textStyle="bold"
-                    android:text="সরকারি ভাতাসমূহ"></Button>
+                    android:text="জন্ম-নিবন্ধন সংশোধন">
+
+                </Button>
 
 
             </LinearLayout>
 
             <LinearLayout
+                android:layout_marginTop="10dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
                 android:layout_weight="2">
 
                 <Button
-                    android:layout_marginTop="10dp"
                     android:layout_width="match_parent"
                     android:layout_height="250dp"
                     android:background="#4CAF50"
-                    android:drawableTop="@drawable/track"
+                    android:drawableTop="@drawable/ovijogg"
                     android:id="@+id/but5"
-                    android:paddingTop="25sp"
+                    android:paddingTop="15sp"
                     android:drawablePadding="15sp"
-                    android:textSize="25dp"
+                    android:textSize="20sp"
                     android:textColor="#FFC107"
                     android:layout_weight="1"
                     android:textStyle="bold"
-                    android:text="হোল্ডিং ট্র্যাক পরিশোধ"></Button>
+                    android:text="NID-কার্ড আবেদন">
 
+                </Button>
 
+                <Button
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="250dp"
+                    android:background="#4CAF50"
+                    android:drawableTop="@drawable/paybill"
+                    android:id="@+id/but6"
+                    android:paddingTop="15sp"
+                    android:drawablePadding="15sp"
+                    android:textSize="20dp"
+                    android:textColor="#FFC107"
+                    android:layout_weight="1"
+                    android:textStyle="bold"
+                    android:text="NID-কার্ড সংশোধন">
+
+                </Button>
 
 
             </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_weight="2">
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="250dp"
+                    android:background="#4CAF50"
+                    android:drawableTop="@drawable/ovijogg"
+                    android:id="@+id/but7"
+                    android:paddingTop="15sp"
+                    android:drawablePadding="15sp"
+                    android:textSize="20sp"
+                    android:textColor="#FFC107"
+                    android:layout_weight="1"
+                    android:textStyle="bold"
+                    android:text="স্মার্ট কার্ডের অবস্থা">
+
+                </Button>
+
+                <Button
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="250dp"
+                    android:background="#4CAF50"
+                    android:drawableTop="@drawable/paybill"
+                    android:id="@+id/but8"
+                    android:paddingTop="15sp"
+                    android:drawablePadding="15sp"
+                    android:textSize="20dp"
+                    android:textColor="#FFC107"
+                    android:layout_weight="1"
+                    android:textStyle="bold"
+                    android:text="পাসপোর্ট আবেদন">
+
+                </Button>
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_weight="2">
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="250dp"
+                    android:background="#4CAF50"
+                    android:drawableTop="@drawable/ovijogg"
+                    android:id="@+id/but9"
+                    android:paddingTop="15sp"
+                    android:drawablePadding="15sp"
+                    android:textSize="16sp"
+                    android:textColor="#FFC107"
+                    android:layout_weight="1"
+                    android:textStyle="bold"
+                    android:text="পাসপোর্ট আবেদনের অবস্থা">
+
+                </Button>
+
+                <Button
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="250dp"
+                    android:background="#4CAF50"
+                    android:drawableTop="@drawable/paybill"
+                    android:id="@+id/but10"
+                    android:paddingTop="15sp"
+                    android:drawablePadding="15sp"
+                    android:textSize="20dp"
+                    android:textColor="#FFC107"
+                    android:layout_weight="1"
+                    android:textStyle="bold"
+                    android:text="পুলিশ  ক্লিয়ারেন্স">
+
+                </Button>
+
+
+            </LinearLayout>
+
+
+
+
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_weight="2">
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="250dp"
+                    android:background="#4CAF50"
+                    android:drawableTop="@drawable/ovijogg"
+                    android:id="@+id/but11"
+                    android:paddingTop="15sp"
+                    android:drawablePadding="15sp"
+                    android:textSize="20sp"
+                    android:textColor="#FFC107"
+                    android:layout_weight="1"
+                    android:textStyle="bold"
+                    android:text="পরীক্ষার ফলাফল">
+
+                </Button>
+
+                <Button
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="250dp"
+                    android:background="#4CAF50"
+                    android:drawableTop="@drawable/paybill"
+                    android:id="@+id/but12"
+                    android:paddingTop="15sp"
+                    android:drawablePadding="15sp"
+                    android:textSize="20sp"
+                    android:textColor="#FFC107"
+                    android:layout_weight="1"
+                    android:textStyle="bold"
+                    android:text="সরকারি ভাতাসমূহ">
+
+                </Button>
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_weight="2">
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="250dp"
+                    android:background="#4CAF50"
+                    android:drawableTop="@drawable/ovijogg"
+                    android:id="@+id/but13"
+                    android:paddingTop="15sp"
+                    android:drawablePadding="15sp"
+                    android:textSize="18sp"
+                    android:textColor="#FFC107"
+                    android:layout_weight="1"
+                    android:textStyle="bold"
+                    android:text="রেলওয়ে টিকিট">
+
+                </Button>
+
+                <Button
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="250dp"
+                    android:background="#4CAF50"
+                    android:drawableTop="@drawable/paybill"
+                    android:id="@+id/but14"
+                    android:paddingTop="15sp"
+                    android:drawablePadding="15sp"
+                    android:textSize="20dp"
+                    android:textColor="#FFC107"
+                    android:layout_weight="1"
+                    android:textStyle="bold"
+                    android:text="বাস টিকেট">
+
+                </Button>
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_weight="2">
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="250dp"
+                    android:background="#4CAF50"
+                    android:drawableTop="@drawable/ovijogg"
+                    android:id="@+id/but15"
+                    android:paddingTop="15sp"
+                    android:drawablePadding="15sp"
+                    android:textSize="20sp"
+                    android:textColor="#FFC107"
+                    android:layout_weight="1"
+                    android:textStyle="bold"
+                    android:text="ই-নামজারি">
+
+                </Button>
+
+                <Button
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="250dp"
+                    android:background="#4CAF50"
+                    android:drawableTop="@drawable/paybill"
+                    android:id="@+id/but16"
+                    android:paddingTop="15sp"
+                    android:drawablePadding="15sp"
+                    android:textSize="20dp"
+                    android:textColor="#FFC107"
+                    android:layout_weight="1"
+                    android:textStyle="bold"
+                    android:text="ব্লাড ব্যাংক">
+
+                </Button>
+
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_weight="2">
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="250dp"
+                    android:background="#4CAF50"
+                    android:drawableTop="@drawable/ovijogg"
+                    android:id="@+id/but17"
+                    android:paddingTop="15sp"
+                    android:drawablePadding="15sp"
+                    android:textSize="20sp"
+                    android:textColor="#FFC107"
+                    android:layout_weight="1"
+                    android:textStyle="bold"
+                    android:text="ই-চিন নিবন্ধন">
+
+                </Button>
+
+                <Button
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="250dp"
+                    android:background="#4CAF50"
+                    android:drawableTop="@drawable/paybill"
+                    android:id="@+id/but18"
+                    android:paddingTop="15sp"
+                    android:drawablePadding="15sp"
+                    android:textSize="18dp"
+                    android:textColor="#FFC107"
+                    android:layout_weight="1"
+                    android:textStyle="bold"
+                    android:text="Tax-পরিশোধ">
+
+                </Button>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_weight="2">
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="250dp"
+                    android:background="#4CAF50"
+                    android:drawableTop="@drawable/ovijogg"
+                    android:id="@+id/but19"
+                    android:paddingTop="15sp"
+                    android:drawablePadding="15sp"
+                    android:textSize="20sp"
+                    android:textColor="#FFC107"
+                    android:layout_weight="1"
+                    android:textStyle="bold"
+                    android:text="সকল সনদপত্র যাচাই">
+
+                </Button>
+
+                <Button
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="250dp"
+                    android:background="#4CAF50"
+                    android:drawableTop="@drawable/paybill"
+                    android:id="@+id/but20"
+                    android:paddingTop="15sp"
+                    android:drawablePadding="15sp"
+                    android:textSize="20sp"
+                    android:textColor="#FFC107"
+                    android:layout_weight="1"
+                    android:textStyle="bold"
+                    android:text="জন্ম-নিবন্ধন যাচাই">
+
+                </Button>
+
+
+            </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         </LinearLayout>
 
     </androidx.cardview.widget.CardView>
 
 </LinearLayout>
+
+
+
+
+
+
+</ScrollView>
 
 

@@ -312,7 +312,7 @@
                     android:textColor="#FFC107"
                     android:layout_weight="1"
                     android:textStyle="bold"
-                    android:text="রেলওয়ে টিকিট">
+                    android:text="রেলওয়ে টিকেট">
 
                 </Button>
 

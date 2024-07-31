@@ -14,7 +14,7 @@ import androidx.core.view.WindowInsetsCompat;
 
 public class buttonPage extends AppCompatActivity {
 
-    Button b1,b2,b3,b4,b5,b6,but_women;
+    Button b1,b2,b3,b4,b5,b6,b7,but_women;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -26,6 +26,7 @@ public class buttonPage extends AppCompatActivity {
         b4=findViewById(R.id.but4);
         b5=findViewById(R.id.but5);
         b6=findViewById(R.id.but6);
+        b7=findViewById(R.id.but7);
         but_women=findViewById(R.id.but_women);
 
         b1.setOnClickListener(new View.OnClickListener() {
@@ -118,6 +119,22 @@ public class buttonPage extends AppCompatActivity {
                 Bundle translatebundle= ActivityOptions.makeCustomAnimation(buttonPage.this,
                         R.anim.slide_in_right,
                         R.anim.slide_out_left).toBundle();
+
+
+
+                startActivity(ii,translatebundle);
+
+            }
+        });
+
+        b7.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent ii=new Intent(getApplicationContext(), onnaonno.class);
+
+                Bundle translatebundle= ActivityOptions.makeCustomAnimation(buttonPage.this,
+                        R.anim.slide_in_left,
+                        R.anim.slide_out_right).toBundle();
 
 
 

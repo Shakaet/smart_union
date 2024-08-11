@@ -26,7 +26,7 @@ public class link_jon_jachai extends AppCompatActivity {
         WebSettings webSettings=webview.getSettings();
         webSettings.setJavaScriptEnabled(true);
 
-        webview.loadUrl("https://everify.bdris.gov.bd/");
+        webview.loadUrl("https://everify.bdris.gov.bd");
 
     }
 }

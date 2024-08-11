@@ -26,6 +26,6 @@ public class link_nid_abedon extends AppCompatActivity {
         WebSettings webSettings=webview.getSettings();
         webSettings.setJavaScriptEnabled(true);
 
-        webview.loadUrl("https://www.nidw.gov.bd/");
+        webview.loadUrl("https://www.nidw.gov.bd");
     }
 }

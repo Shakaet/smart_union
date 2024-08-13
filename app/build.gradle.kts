@@ -3,6 +3,8 @@ plugins {
     id("com.google.gms.google-services")
 }
 
+
+
 android {
     namespace = "com.example.smart_union"
     compileSdk = 34
@@ -39,5 +41,15 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.ext.junit)
     androidTestImplementation(libs.espresso.core)
+
+    // UddoktaPay SDK
+    implementation ("com.github.uddoktapay:UddoktaPayAndroidSDK:ultra.2.0")
+    implementation ("com.squareup.okhttp3:okhttp:5.0.0-alpha.2")
+
+
+
+
+
+
 
 }

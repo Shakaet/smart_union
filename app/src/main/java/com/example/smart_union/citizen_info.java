@@ -15,7 +15,7 @@ import androidx.core.view.WindowInsetsCompat;
 public class citizen_info extends AppCompatActivity {
 
 
-    Button but3,but4,but5,but6,but7,but20;
+    Button but3,but4,but5,but6,but7,but20,but2;
 
 
 
@@ -31,6 +31,7 @@ public class citizen_info extends AppCompatActivity {
         but6=findViewById(R.id.but6);
         but7=findViewById(R.id.but7);
         but20=findViewById(R.id.but20);
+        but2=findViewById(R.id.but2);
 
 
 
@@ -124,6 +125,22 @@ public class citizen_info extends AppCompatActivity {
                 Bundle translatebundle= ActivityOptions.makeCustomAnimation(getApplicationContext(),
                         R.anim.slide_in_right,
                         R.anim.slide_out_left).toBundle();
+
+
+
+                startActivity(ii,translatebundle);
+            }
+        });
+
+        but2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                Intent ii=new Intent(getApplicationContext(), paybill.class);
+
+                Bundle translatebundle= ActivityOptions.makeCustomAnimation(getApplicationContext(),
+                        R.anim.slide_in_left,
+                        R.anim.slide_out_right).toBundle();
 
 
 

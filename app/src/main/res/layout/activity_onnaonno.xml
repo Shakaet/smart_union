@@ -43,7 +43,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="250dp"
                         android:background="#4CAF50"
-                        android:drawableTop="@drawable/medicine"
+                        android:drawableTop="@drawable/news1"
                         android:id="@+id/but1"
                         android:paddingTop="15sp"
                         android:drawablePadding="15sp"
@@ -52,7 +52,8 @@
                         android:layout_weight="1"
                         android:textStyle="bold"
 
-                        android:text="ওষুধ তথ্য"></Button>
+                        android:text="সংবাদপত্র
+"></Button>
 
                     <Button
                         android:layout_marginLeft="10dp"

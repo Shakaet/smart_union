@@ -16,6 +16,24 @@
         android:theme="@style/Theme.Smart_Union"
         tools:targetApi="31">
         <activity
+            android:name=".doctor_finding"
+            android:exported="false" />
+        <activity
+            android:name=".news_info"
+            android:exported="false" />
+        <activity
+            android:name=".newspaper"
+            android:exported="false" />
+        <activity
+            android:name=".police_clearence"
+            android:exported="false" />
+        <activity
+            android:name=".passport_situation"
+            android:exported="false" />
+        <activity
+            android:name=".passport_App"
+            android:exported="false" />
+        <activity
             android:name=".buddho"
             android:exported="false" />
         <activity

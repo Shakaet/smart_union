@@ -15,7 +15,7 @@ import androidx.core.view.WindowInsetsCompat;
 public class citizen_info extends AppCompatActivity {
 
 
-    Button but3,but4,but5,but6,but7,but20,but2;
+    Button but3,but4,but5,but6,but7,but20,but2,but8,but9,but10;
 
 
 
@@ -32,6 +32,9 @@ public class citizen_info extends AppCompatActivity {
         but7=findViewById(R.id.but7);
         but20=findViewById(R.id.but20);
         but2=findViewById(R.id.but2);
+        but8=findViewById(R.id.but8);
+        but9=findViewById(R.id.but9);
+        but10=findViewById(R.id.but10);
 
 
 
@@ -147,6 +150,56 @@ public class citizen_info extends AppCompatActivity {
                 startActivity(ii,translatebundle);
             }
         });
+
+
+        but8.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                Intent ii=new Intent(getApplicationContext(), passport_App.class);
+
+                Bundle translatebundle= ActivityOptions.makeCustomAnimation(getApplicationContext(),
+                        R.anim.slide_in_right,
+                        R.anim.slide_out_left).toBundle();
+
+
+
+                startActivity(ii,translatebundle);
+            }
+        });
+
+        but9.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                Intent ii=new Intent(getApplicationContext(), passport_situation.class);
+
+                Bundle translatebundle= ActivityOptions.makeCustomAnimation(getApplicationContext(),
+                        R.anim.slide_in_left,
+                        R.anim.slide_out_right).toBundle();
+
+
+
+                startActivity(ii,translatebundle);
+            }
+        });
+
+        but10.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                Intent ii=new Intent(getApplicationContext(), police_clearence.class);
+
+                Bundle translatebundle= ActivityOptions.makeCustomAnimation(getApplicationContext(),
+                        R.anim.slide_in_right,
+                        R.anim.slide_out_left).toBundle();
+
+
+
+                startActivity(ii,translatebundle);
+            }
+        });
+
 
 
 

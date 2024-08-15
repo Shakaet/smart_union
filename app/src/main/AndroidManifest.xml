@@ -16,6 +16,12 @@
         android:theme="@style/Theme.Smart_Union"
         tools:targetApi="31">
         <activity
+            android:name=".high_info"
+            android:exported="false" />
+        <activity
+            android:name=".primary_info"
+            android:exported="false" />
+        <activity
             android:name=".madrasha_info"
             android:exported="false" />
         <activity

@@ -90,7 +90,7 @@
                         android:id="@+id/but3"
                         android:paddingTop="15sp"
                         android:drawablePadding="15sp"
-                        android:textSize="20sp"
+                        android:textSize="18sp"
                         android:textColor="#FFC107"
                         android:layout_weight="1"
                         android:textStyle="bold"
@@ -112,7 +112,7 @@
                         android:textColor="#FFC107"
                         android:layout_weight="1"
                         android:textStyle="bold"
-                        android:text="উচ্চ \n বিদ্যালয়">
+                        android:text="উচ্চ  বিদ্যালয়">
 
                     </Button>
 

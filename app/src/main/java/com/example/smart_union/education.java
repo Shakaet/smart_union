@@ -14,7 +14,7 @@ import androidx.core.view.WindowInsetsCompat;
 
 public class education extends AppCompatActivity {
 
-    Button but1,but2;
+    Button but1,but2,but3,but4;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -24,6 +24,8 @@ public class education extends AppCompatActivity {
 
         but1=findViewById(R.id.but1);
         but2=findViewById(R.id.but2);
+        but3=findViewById(R.id.but3);
+        but4=findViewById(R.id.but4);
 
         but1.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -48,8 +50,40 @@ public class education extends AppCompatActivity {
                 Intent ii=new Intent(getApplicationContext(), madrasha_info.class);
 
                 Bundle translatebundle= ActivityOptions.makeCustomAnimation(getApplicationContext(),
+                        R.anim.slide_in_left,
+                        R.anim.slide_out_right).toBundle();
+
+
+
+                startActivity(ii,translatebundle);
+            }
+        });
+
+        but3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                Intent ii=new Intent(getApplicationContext(), primary_info.class);
+
+                Bundle translatebundle= ActivityOptions.makeCustomAnimation(getApplicationContext(),
                         R.anim.slide_in_right,
                         R.anim.slide_out_left).toBundle();
+
+
+
+                startActivity(ii,translatebundle);
+            }
+        });
+
+        but4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                Intent ii=new Intent(getApplicationContext(), high_info.class);
+
+                Bundle translatebundle= ActivityOptions.makeCustomAnimation(getApplicationContext(),
+                        R.anim.slide_in_left,
+                        R.anim.slide_out_right).toBundle();
 
 
 

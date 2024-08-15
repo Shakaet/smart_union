@@ -14,7 +14,7 @@ import androidx.core.view.WindowInsetsCompat;
 
 public class education extends AppCompatActivity {
 
-    Button but1;
+    Button but1,but2;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -23,12 +23,29 @@ public class education extends AppCompatActivity {
         setContentView(R.layout.activity_education);
 
         but1=findViewById(R.id.but1);
+        but2=findViewById(R.id.but2);
 
         but1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
 
                 Intent ii=new Intent(getApplicationContext(), clg_info.class);
+
+                Bundle translatebundle= ActivityOptions.makeCustomAnimation(getApplicationContext(),
+                        R.anim.slide_in_right,
+                        R.anim.slide_out_left).toBundle();
+
+
+
+                startActivity(ii,translatebundle);
+            }
+        });
+
+        but2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                Intent ii=new Intent(getApplicationContext(), madrasha_info.class);
 
                 Bundle translatebundle= ActivityOptions.makeCustomAnimation(getApplicationContext(),
                         R.anim.slide_in_right,

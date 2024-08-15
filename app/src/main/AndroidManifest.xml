@@ -16,6 +16,18 @@
         android:theme="@style/Theme.Smart_Union"
         tools:targetApi="31">
         <activity
+            android:name=".buddho"
+            android:exported="false" />
+        <activity
+            android:name=".temple"
+            android:exported="false" />
+        <activity
+            android:name=".mosque"
+            android:exported="false" />
+        <activity
+            android:name=".religion"
+            android:exported="false" />
+        <activity
             android:name=".high_info"
             android:exported="false" />
         <activity

@@ -16,6 +16,9 @@
         android:theme="@style/Theme.Smart_Union"
         tools:targetApi="31">
         <activity
+            android:name=".clg_info"
+            android:exported="false" />
+        <activity
             android:name=".education"
             android:exported="false" />
         <activity

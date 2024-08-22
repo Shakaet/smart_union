@@ -77,7 +77,7 @@ public class paybill extends AppCompatActivity {
         emailSpinner = findViewById(R.id.emailSpinner);
 
         // Initialize the spinner with email options
-        String[] emailOptions = {"হোল্ডিং ট্যাক্স", "জাতীয়তা সনদপত্র", "মৃত্যু সনদপত্র","ওয়ারিশ সনদপত্র","নাগরিকত্ব সনদপত্র","জন্ম সনদ","প্রতিবন্ধী সনদ","বিবাহিত সনদ","ভূমিহীন সনদ","প্রত্যয়ন পত্র"};
+        String[] emailOptions = {"হোল্ডিং ট্যাক্স--৩০০টাকা","জাতীয়তা সনদপত্র--১০০টাকা","মৃত্যু সনদপত্র--১০০টাকা","ওয়ারিশ সনদপত্র--৫০০টাকা","নাগরিকত্ব সনদপত্র-১০০০টাকা","জন্ম সনদ--২৫০টাকা","প্রতিবন্ধী সনদ--১০০টাকা","বিবাহিত সনদ--১০০টাকা","ভূমিহীন সনদ-৫০০টাকা","প্রত্যয়ন পত্র--১০০টাকা"};
         ArrayAdapter<String> adapter = new ArrayAdapter<>(this, android.R.layout.simple_spinner_item, emailOptions);
         adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         emailSpinner.setAdapter(adapter);

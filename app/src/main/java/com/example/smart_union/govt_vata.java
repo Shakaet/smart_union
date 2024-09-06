@@ -1,6 +1,10 @@
 package com.example.smart_union;
 
+import android.app.ActivityOptions;
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -10,15 +14,36 @@ import androidx.core.view.WindowInsetsCompat;
 
 public class govt_vata extends AppCompatActivity {
 
+    Button but1,but2,but3,but4,but5,but6,but7;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
         setContentView(R.layout.activity_govt_vata);
-        ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
-            Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
-            v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
-            return insets;
+        but1=findViewById(R.id.but1);
+        but2=findViewById(R.id.but2);
+        but3=findViewById(R.id.but3);
+        but4=findViewById(R.id.but4);
+        but5=findViewById(R.id.but5);
+        but6=findViewById(R.id.but6);
+        but7=findViewById(R.id.but7);
+
+        but7.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                Intent ii=new Intent(getApplicationContext(), boyosko_vata.class);
+
+                Bundle translatebundle= ActivityOptions.makeCustomAnimation(getApplicationContext(),
+                        R.anim.slide_in_left,
+                        R.anim.slide_out_right).toBundle();
+
+
+
+                startActivity(ii,translatebundle);
+            }
         });
+
     }
 }

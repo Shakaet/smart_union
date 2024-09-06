@@ -159,6 +159,33 @@
 
                 </LinearLayout>
 
+                <LinearLayout
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_weight="2">
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="250dp"
+                        android:background="#4CAF50"
+                        android:drawableTop="@drawable/vata1"
+                        android:id="@+id/but7"
+                        android:paddingTop="15sp"
+                        android:drawablePadding="15sp"
+                        android:textSize="20sp"
+                        android:textColor="#FFC107"
+                        android:layout_weight="1"
+                        android:textStyle="bold"
+                        android:text="বয়স্ক ভাতার তালিকা">
+
+                    </Button>
+
+
+
+                </LinearLayout>
+
 
 
 

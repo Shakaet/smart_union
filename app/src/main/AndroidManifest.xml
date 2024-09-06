@@ -16,6 +16,9 @@
         android:theme="@style/Theme.Smart_Union"
         tools:targetApi="31">
         <activity
+            android:name=".boyosko_vata"
+            android:exported="false" />
+        <activity
             android:name=".govt_vata"
             android:exported="false" />
         <activity

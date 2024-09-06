@@ -16,6 +16,9 @@
         android:theme="@style/Theme.Smart_Union"
         tools:targetApi="31">
         <activity
+            android:name=".all_sonod"
+            android:exported="false" />
+        <activity
             android:name=".ovijog_link_doc"
             android:exported="false" />
         <activity

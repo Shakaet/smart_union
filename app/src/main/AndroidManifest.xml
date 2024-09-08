@@ -16,6 +16,21 @@
         android:theme="@style/Theme.Smart_Union"
         tools:targetApi="31">
         <activity
+            android:name=".vgf"
+            android:exported="false" />
+        <activity
+            android:name=".vgd"
+            android:exported="false" />
+        <activity
+            android:name=".matritto_vata"
+            android:exported="false" />
+        <activity
+            android:name=".pritibondhi_vata"
+            android:exported="false" />
+        <activity
+            android:name=".bidhoba_vata"
+            android:exported="false" />
+        <activity
             android:name=".boyosko_vata"
             android:exported="false" />
         <activity

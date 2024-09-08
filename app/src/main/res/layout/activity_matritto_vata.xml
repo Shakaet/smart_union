@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".matritto_vata">
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="horizontal">
+
+        <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:scrollbars="vertical">
+
+            <TableLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:stretchColumns="*"
+                android:padding="1dp"
+                android:background="#FFFFFF">
+
+                <!-- Header Row -->
+                <TableRow>
+                    <TextView
+                        android:text="ক্রমঃ"
+                        android:padding="5dp"
+                        android:textStyle="bold"
+                        android:gravity="center"
+                        android:background="#d3d3d3" />
+                    <TextView
+                        android:text="ভাতাভোগীর নাম"
+                        android:padding="5dp"
+                        android:textStyle="bold"
+                        android:gravity="center"
+                        android:background="#d3d3d3" />
+                    <TextView
+                        android:text="পিতা/স্বামীর নাম"
+                        android:padding="5dp"
+                        android:textStyle="bold"
+                        android:gravity="center"
+                        android:background="#d3d3d3" />
+                    <TextView
+                        android:text="ঠিকানা"
+                        android:padding="5dp"
+                        android:textStyle="bold"
+                        android:gravity="center"
+                        android:background="#d3d3d3" />
+                    <TextView
+                        android:text="ওয়ার্ড নং"
+                        android:padding="5dp"
+                        android:textStyle="bold"
+                        android:gravity="center"
+                        android:background="#d3d3d3" />
+                    <TextView
+                        android:text="মোবাইল নম্বর"
+                        android:padding="5dp"
+                        android:textStyle="bold"
+                        android:gravity="center"
+                        android:background="#d3d3d3" />
+                </TableRow>
+
+                <!-- First Data Row -->
+                <TableRow>
+                    <TextView
+                        android:text="01"
+                        android:padding="8dp"
+                        android:background="@drawable/table_row_border"
+                        android:gravity="center" />
+                    <TextView
+                        android:text="আব্দুল গনি"
+                        android:padding="8dp"
+                        android:background="@drawable/table_row_border"
+                        android:gravity="center" />
+                    <TextView
+                        android:text="হামদু মিয়া"
+                        android:padding="8dp"
+                        android:background="@drawable/table_row_border"
+                        android:gravity="center" />
+                    <TextView
+                        android:text="গন্জি"
+                        android:padding="8dp"
+                        android:background="@drawable/table_row_border"
+                        android:gravity="center" />
+                    <TextView
+                        android:text="01"
+                        android:padding="8dp"
+                        android:background="@drawable/table_row_border"
+                        android:gravity="center" />
+                    <TextView
+                        android:text="017xxxxxxxx"
+                        android:padding="8dp"
+                        android:background="@drawable/table_row_border"
+                        android:gravity="center" />
+                </TableRow>
+
+                <!-- Second Data Row -->
+                <TableRow>
+                    <TextView
+                        android:text="02"
+                        android:padding="8dp"
+                        android:background="@drawable/table_row_border"
+                        android:gravity="center" />
+                    <TextView
+                        android:text="নুর আশা"
+                        android:padding="8dp"
+                        android:background="@drawable/table_row_border"
+                        android:gravity="center" />
+                    <TextView
+                        android:text="আব্দুর কাদের"
+                        android:padding="8dp"
+                        android:background="@drawable/table_row_border"
+                        android:gravity="center" />
+                    <TextView
+                        android:text="গন্জি"
+                        android:padding="8dp"
+                        android:background="@drawable/table_row_border"
+                        android:gravity="center" />
+                    <TextView
+                        android:text="02"
+                        android:padding="8dp"
+                        android:background="@drawable/table_row_border"
+                        android:gravity="center" />
+                    <TextView
+                        android:text="018xxxxxxxx"
+                        android:padding="8dp"
+                        android:background="@drawable/table_row_border"
+                        android:gravity="center" />
+                </TableRow>
+
+                <!-- Additional rows go here -->
+                <!-- Continue the pattern of adding the new column to each row -->
+
+            </TableLayout>
+        </ScrollView>
+    </HorizontalScrollView>
+
+
+</LinearLayout>

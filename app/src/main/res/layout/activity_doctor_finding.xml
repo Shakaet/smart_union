@@ -1,10 +1,146 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".doctor_finding">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp"
+        android:background="#EAF3FC">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="5dp">
+
+            <!-- First Doctor Profile Card -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="#FFFFFF"
+                android:padding="10dp"
+                android:layout_marginBottom="10dp"
+                android:elevation="2dp">
+
+                <!-- Category -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ধাত্রীবিদ্যা, স্ত্রীরোগ বিশেষজ্ঞ ও সার্জন"
+                    android:textStyle="bold"
+                    android:textColor="#388E3C"
+                    android:textSize="16sp" />
+
+                <!-- Doctor Name -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ডাঃ বনানী চৌধুরী"
+                    android:textStyle="bold"
+                    android:textColor="#1E88E5"
+                    android:textSize="18sp"
+                    android:layout_marginTop="4dp" />
+
+                <!-- Qualifications -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="এমবিবিএস, বিসিপিএস, ডিপ্লোমা (গাইন)"
+                    android:textColor="#000000"
+                    android:textSize="14sp"
+                    android:layout_marginTop="2dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="প্রধান কনসালটেন্ট, গাইনী বিভাগ, আগ্রাবাদ মা ও শিশু হাসপাতাল"
+                    android:textColor="#000000"
+                    android:textSize="14sp"
+                    android:layout_marginTop="2dp" />
+
+                <!-- Chamber Timings -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="সন্ধ্যা: প্রতি রবি ও বুধবার সকাল ১০টা হতে দুপুর ১টা পর্যন্ত"
+                    android:textColor="#000000"
+                    android:textSize="14sp"
+                    android:layout_marginTop="2dp" />
+            </LinearLayout>
+
+            <!-- Second Doctor Profile Card -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="#FFFFFF"
+                android:padding="10dp"
+                android:layout_marginBottom="10dp"
+                android:elevation="2dp">
+
+                <!-- Category -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="প্রসূতি ও স্ত্রীরোগ বিশেষজ্ঞ এবং সার্জন"
+                    android:textStyle="bold"
+                    android:textColor="#388E3C"
+                    android:textSize="16sp" />
+
+                <!-- Doctor Name -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ডাঃ রেজওয়ান জাহান"
+                    android:textStyle="bold"
+                    android:textColor="#1E88E5"
+                    android:textSize="18sp"
+                    android:layout_marginTop="4dp" />
+
+                <!-- Qualifications -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="এমবিবিএস (ডি.ইউ), বিসিপিএস (স্ত্রীরোগ ও প্রসূতি),"
+                    android:textColor="#000000"
+                    android:textSize="14sp"
+                    android:layout_marginTop="2dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="সহকারী অধ্যাপক, গাইনী বিভাগ, চট্টগ্রাম মেডিকেল কলেজ"
+                    android:textColor="#000000"
+                    android:textSize="14sp"
+                    android:layout_marginTop="2dp" />
+
+                <!-- Chamber Timings -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="সন্ধ্যা: প্রতি মঙ্গল ও বৃহস্পতিবার ১০টা হতে দুপুর ১টা পর্যন্ত"
+                    android:textColor="#000000"
+                    android:textSize="14sp"
+                    android:layout_marginTop="2dp" />
+            </LinearLayout>
+
+            <!-- Add more profile cards here in the same format -->
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+
+
+</LinearLayout>

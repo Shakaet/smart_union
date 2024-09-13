@@ -99,7 +99,7 @@
                         android:background="@drawable/table_row_border"
                         android:gravity="center" />
                     <TextView
-                        android:text="গন্জি"
+                        android:text="গশ্চি"
                         android:padding="4dp"
                         android:background="@drawable/table_row_border"
                         android:gravity="center" />
@@ -142,7 +142,7 @@
                         android:background="@drawable/table_row_border"
                         android:gravity="center" />
                     <TextView
-                        android:text="গন্জি"
+                        android:text="গশ্চি"
                         android:padding="4dp"
                         android:background="@drawable/table_row_border"
                         android:gravity="center" />
@@ -181,7 +181,7 @@
                         android:background="@drawable/table_row_border"
                         android:gravity="center" />
                     <TextView
-                        android:text="গন্জি"
+                        android:text="গশ্চি"
                         android:padding="4dp"
                         android:background="@drawable/table_row_border"
                         android:gravity="center" />
@@ -220,7 +220,7 @@
                         android:background="@drawable/table_row_border"
                         android:gravity="center" />
                     <TextView
-                        android:text="গন্জি"
+                        android:text="গশ্চি"
                         android:padding="4dp"
                         android:background="@drawable/table_row_border"
                         android:gravity="center" />
@@ -259,7 +259,7 @@
                         android:background="@drawable/table_row_border"
                         android:gravity="center" />
                     <TextView
-                        android:text="গন্জি"
+                        android:text="গশ্চি"
                         android:padding="4dp"
                         android:background="@drawable/table_row_border"
                         android:gravity="center" />
@@ -298,7 +298,7 @@
                         android:background="@drawable/table_row_border"
                         android:gravity="center" />
                     <TextView
-                        android:text="গন্জি"
+                        android:text="গশ্চি"
                         android:padding="4dp"
                         android:background="@drawable/table_row_border"
                         android:gravity="center" />
@@ -384,7 +384,7 @@
                         android:background="@drawable/table_row_border"
                         android:gravity="center" />
                     <TextView
-                        android:text="গন্জি"
+                        android:text="গশ্চি"
                         android:padding="4dp"
                         android:background="@drawable/table_row_border"
                         android:gravity="center" />
@@ -423,7 +423,7 @@
                         android:background="@drawable/table_row_border"
                         android:gravity="center" />
                     <TextView
-                        android:text="গন্জি"
+                        android:text="গশ্চি"
                         android:padding="4dp"
                         android:background="@drawable/table_row_border"
                         android:gravity="center" />
@@ -461,7 +461,7 @@
                         android:background="@drawable/table_row_border"
                         android:gravity="center" />
                     <TextView
-                        android:text="গন্জি"
+                        android:text="গশ্চি"
                         android:padding="4dp"
                         android:background="@drawable/table_row_border"
                         android:gravity="center" />

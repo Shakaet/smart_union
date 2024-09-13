@@ -24,7 +24,7 @@ public class link_rail_e_tik extends AppCompatActivity {
         WebSettings webSettings=webview.getSettings();
         webSettings.setJavaScriptEnabled(true);
 
-        webview.loadUrl("https://railapp.railway.gov.bd");
+        webview.loadUrl("https://eticket.railway.gov.bd/");
 
     }
 }

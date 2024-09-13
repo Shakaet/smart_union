@@ -1,4 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:fillViewport="true">
+
+
+
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -33,7 +41,7 @@
                         android:gravity="center"
                         android:background="#d3d3d3" />
                     <TextView
-                        android:text="ভাতাভোগীর নাম"
+                        android:text="উপকার ভোগীর নাম"
                         android:padding="5dp"
                         android:textStyle="bold"
                         android:gravity="center"
@@ -57,7 +65,7 @@
                         android:gravity="center"
                         android:background="#d3d3d3" />
                     <TextView
-                        android:text="মোবাইল নম্বর"
+                        android:text="বয়স"
                         android:padding="5dp"
                         android:textStyle="bold"
                         android:gravity="center"
@@ -72,27 +80,29 @@
                         android:background="@drawable/table_row_border"
                         android:gravity="center" />
                     <TextView
-                        android:text="আব্দুল গনি"
+                        android:text="ডেজি আক্তার
+"
                         android:padding="8dp"
                         android:background="@drawable/table_row_border"
                         android:gravity="center" />
                     <TextView
-                        android:text="হামদু মিয়া"
+                        android:text="মোঃ ইউনুস
+"
                         android:padding="8dp"
                         android:background="@drawable/table_row_border"
                         android:gravity="center" />
                     <TextView
-                        android:text="গন্জি"
+                        android:text="গশ্চি"
                         android:padding="8dp"
                         android:background="@drawable/table_row_border"
                         android:gravity="center" />
                     <TextView
-                        android:text="01"
+                        android:text="02"
                         android:padding="8dp"
                         android:background="@drawable/table_row_border"
                         android:gravity="center" />
                     <TextView
-                        android:text="017xxxxxxxx"
+                        android:text="২৫ বছর"
                         android:padding="8dp"
                         android:background="@drawable/table_row_border"
                         android:gravity="center" />
@@ -106,17 +116,19 @@
                         android:background="@drawable/table_row_border"
                         android:gravity="center" />
                     <TextView
-                        android:text="নুর আশা"
+                        android:text="শারমিন আক্তার
+"
                         android:padding="8dp"
                         android:background="@drawable/table_row_border"
                         android:gravity="center" />
                     <TextView
-                        android:text="আব্দুর কাদের"
+                        android:text="মোঃ মাহবুবুল আলম
+"
                         android:padding="8dp"
                         android:background="@drawable/table_row_border"
                         android:gravity="center" />
                     <TextView
-                        android:text="গন্জি"
+                        android:text="গশ্চি"
                         android:padding="8dp"
                         android:background="@drawable/table_row_border"
                         android:gravity="center" />
@@ -126,14 +138,281 @@
                         android:background="@drawable/table_row_border"
                         android:gravity="center" />
                     <TextView
-                        android:text="018xxxxxxxx"
+                        android:text="২৪ বছর"
                         android:padding="8dp"
                         android:background="@drawable/table_row_border"
                         android:gravity="center" />
                 </TableRow>
 
-                <!-- Additional rows go here -->
-                <!-- Continue the pattern of adding the new column to each row -->
+                <TableRow>
+                    <TextView
+                        android:text="03"
+                        android:padding="8dp"
+                        android:background="@drawable/table_row_border"
+                        android:gravity="center" />
+                    <TextView
+                        android:text="কনিকা মহাজন"
+                        android:padding="8dp"
+                        android:background="@drawable/table_row_border"
+                        android:gravity="center" />
+                    <TextView
+                        android:text="নিহার মহাজন
+"
+                        android:padding="8dp"
+                        android:background="@drawable/table_row_border"
+                        android:gravity="center" />
+                    <TextView
+                        android:text="গশ্চি"
+                        android:padding="8dp"
+                        android:background="@drawable/table_row_border"
+                        android:gravity="center" />
+                    <TextView
+                        android:text="03"
+                        android:padding="8dp"
+                        android:background="@drawable/table_row_border"
+                        android:gravity="center" />
+                    <TextView
+                        android:text="৩০ বছর"
+                        android:padding="8dp"
+                        android:background="@drawable/table_row_border"
+                        android:gravity="center" />
+                </TableRow>
+
+                <TableRow>
+                    <TextView
+                        android:text="04"
+                        android:padding="8dp"
+                        android:background="@drawable/table_row_border"
+                        android:gravity="center" />
+                    <TextView
+                        android:text="সবিতা দাস
+"
+                        android:padding="8dp"
+                        android:background="@drawable/table_row_border"
+                        android:gravity="center" />
+                    <TextView
+                        android:text="রিটন দাশ"
+                        android:padding="8dp"
+                        android:background="@drawable/table_row_border"
+                        android:gravity="center" />
+                    <TextView
+                        android:text="পাঁচখাইন"
+                        android:padding="8dp"
+                        android:background="@drawable/table_row_border"
+                        android:gravity="center" />
+                    <TextView
+                        android:text="04"
+                        android:padding="8dp"
+                        android:background="@drawable/table_row_border"
+                        android:gravity="center" />
+                    <TextView
+                        android:text="২২ বছর"
+                        android:padding="8dp"
+                        android:background="@drawable/table_row_border"
+                        android:gravity="center" />
+                </TableRow>
+
+                <TableRow>
+                    <TextView
+                        android:text="05"
+                        android:padding="8dp"
+                        android:background="@drawable/table_row_border"
+                        android:gravity="center" />
+                    <TextView
+                        android:text="রাজু চক্রবর্তী
+"
+                        android:padding="8dp"
+                        android:background="@drawable/table_row_border"
+                        android:gravity="center" />
+                    <TextView
+                        android:text="সুজন চক্রবর্তী"
+                        android:padding="8dp"
+                        android:background="@drawable/table_row_border"
+                        android:gravity="center" />
+                    <TextView
+                        android:text="পাঁচখাইন"
+                        android:padding="8dp"
+                        android:background="@drawable/table_row_border"
+                        android:gravity="center" />
+                    <TextView
+                        android:text="04"
+                        android:padding="8dp"
+                        android:background="@drawable/table_row_border"
+                        android:gravity="center" />
+                    <TextView
+                        android:text="২১ বছর"
+                        android:padding="8dp"
+                        android:background="@drawable/table_row_border"
+                        android:gravity="center" />
+                </TableRow>
+
+                <TableRow>
+                    <TextView
+                        android:text="06"
+                        android:padding="8dp"
+                        android:background="@drawable/table_row_border"
+                        android:gravity="center" />
+                    <TextView
+                        android:text="পপি বড়ুয়া"
+                        android:padding="8dp"
+                        android:background="@drawable/table_row_border"
+                        android:gravity="center" />
+                    <TextView
+                        android:text="বাবলা বড়ুয়া"
+                        android:padding="8dp"
+                        android:background="@drawable/table_row_border"
+                        android:gravity="center" />
+                    <TextView
+                        android:text="পাঁচখাইন"
+                        android:padding="8dp"
+                        android:background="@drawable/table_row_border"
+                        android:gravity="center" />
+                    <TextView
+                        android:text="04"
+                        android:padding="8dp"
+                        android:background="@drawable/table_row_border"
+                        android:gravity="center" />
+                    <TextView
+                        android:text="২০ বছর"
+                        android:padding="8dp"
+                        android:background="@drawable/table_row_border"
+                        android:gravity="center" />
+                </TableRow>
+
+                <TableRow>
+                    <TextView
+                        android:text="07"
+                        android:padding="8dp"
+                        android:background="@drawable/table_row_border"
+                        android:gravity="center" />
+                    <TextView
+                        android:text="পূদির্ণমা চক্রবর্তী"
+                        android:padding="8dp"
+                        android:background="@drawable/table_row_border"
+                        android:gravity="center" />
+                    <TextView
+                        android:text="চন্দন চক্রবর্তী"
+                        android:padding="8dp"
+                        android:background="@drawable/table_row_border"
+                        android:gravity="center" />
+                    <TextView
+                        android:text="পাঁচখাইন"
+                        android:padding="8dp"
+                        android:background="@drawable/table_row_border"
+                        android:gravity="center" />
+                    <TextView
+                        android:text="04"
+                        android:padding="8dp"
+                        android:background="@drawable/table_row_border"
+                        android:gravity="center" />
+                    <TextView
+                        android:text="২৯ বছর"
+                        android:padding="8dp"
+                        android:background="@drawable/table_row_border"
+                        android:gravity="center" />
+                </TableRow>
+
+                <TableRow>
+                    <TextView
+                        android:text="07"
+                        android:padding="8dp"
+                        android:background="@drawable/table_row_border"
+                        android:gravity="center" />
+                    <TextView
+                        android:text="মিলি বড়ুয়া"
+                        android:padding="8dp"
+                        android:background="@drawable/table_row_border"
+                        android:gravity="center" />
+                    <TextView
+                        android:text="রাসেল বড়ুয়া"
+                        android:padding="8dp"
+                        android:background="@drawable/table_row_border"
+                        android:gravity="center" />
+                    <TextView
+                        android:text="পাঁচখাইন"
+                        android:padding="8dp"
+                        android:background="@drawable/table_row_border"
+                        android:gravity="center" />
+                    <TextView
+                        android:text="04"
+                        android:padding="8dp"
+                        android:background="@drawable/table_row_border"
+                        android:gravity="center" />
+                    <TextView
+                        android:text="২০ বছর"
+                        android:padding="8dp"
+                        android:background="@drawable/table_row_border"
+                        android:gravity="center" />
+                </TableRow>
+
+                <TableRow>
+                    <TextView
+                        android:text="09"
+                        android:padding="8dp"
+                        android:background="@drawable/table_row_border"
+                        android:gravity="center" />
+                    <TextView
+                        android:text="শুক্লা বড়ুয়া"
+                        android:padding="8dp"
+                        android:background="@drawable/table_row_border"
+                        android:gravity="center" />
+                    <TextView
+                        android:text="উদয়ন বড়"
+                        android:padding="8dp"
+                        android:background="@drawable/table_row_border"
+                        android:gravity="center" />
+                    <TextView
+                        android:text="পাঁচখাইন"
+                        android:padding="8dp"
+                        android:background="@drawable/table_row_border"
+                        android:gravity="center" />
+                    <TextView
+                        android:text="04"
+                        android:padding="8dp"
+                        android:background="@drawable/table_row_border"
+                        android:gravity="center" />
+                    <TextView
+                        android:text="২০ বছর"
+                        android:padding="8dp"
+                        android:background="@drawable/table_row_border"
+                        android:gravity="center" />
+                </TableRow>
+
+                <TableRow>
+                    <TextView
+                        android:text="10"
+                        android:padding="8dp"
+                        android:background="@drawable/table_row_border"
+                        android:gravity="center" />
+                    <TextView
+                        android:text="উর্মি বড়ুয়া
+"
+                        android:padding="8dp"
+                        android:background="@drawable/table_row_border"
+                        android:gravity="center" />
+                    <TextView
+                        android:text="ঝন্টু বড়ুয়া"
+                        android:padding="8dp"
+                        android:background="@drawable/table_row_border"
+                        android:gravity="center" />
+                    <TextView
+                        android:text="পাঁচখাইন"
+                        android:padding="8dp"
+                        android:background="@drawable/table_row_border"
+                        android:gravity="center" />
+                    <TextView
+                        android:text="04"
+                        android:padding="8dp"
+                        android:background="@drawable/table_row_border"
+                        android:gravity="center" />
+                    <TextView
+                        android:text="২১ বছর"
+                        android:padding="8dp"
+                        android:background="@drawable/table_row_border"
+                        android:gravity="center" />
+                </TableRow>
+
+
 
             </TableLayout>
         </ScrollView>
@@ -141,3 +420,4 @@
 
 
 </LinearLayout>
+</ScrollView>

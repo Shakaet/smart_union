@@ -16,6 +16,21 @@
         android:theme="@style/Theme.Smart_Union"
         tools:targetApi="31">
         <activity
+            android:name=".link_e_namjari"
+            android:exported="false" />
+        <activity
+            android:name=".link_e_tin"
+            android:exported="false" />
+        <activity
+            android:name=".link_bus_tik"
+            android:exported="false" />
+        <activity
+            android:name=".link_rail_e_tik"
+            android:exported="false" />
+        <activity
+            android:name=".link_xm_result"
+            android:exported="false" />
+        <activity
             android:name=".muktijuddha_vata"
             android:exported="false" />
         <activity

@@ -15,7 +15,7 @@ import androidx.core.view.WindowInsetsCompat;
 public class citizen_info extends AppCompatActivity {
 
 
-    Button but3,but4,but5,but6,but7,but20,but2,but8,but9,but10,but1,but19,but12;
+    Button but3,but4,but5,but6,but7,but20,but2,but8,but9,but10,but1,but19,but12,but11,but13,but14,but15,but17;
 
 
 
@@ -38,6 +38,11 @@ public class citizen_info extends AppCompatActivity {
         but1=findViewById(R.id.but1);
         but19=findViewById(R.id.but19);
         but12=findViewById(R.id.but12);
+        but11=findViewById(R.id.but11);
+        but13=findViewById(R.id.but13);
+        but14=findViewById(R.id.but14);
+        but15=findViewById(R.id.but15);
+        but17=findViewById(R.id.but17);
 
 
 
@@ -251,6 +256,87 @@ public class citizen_info extends AppCompatActivity {
                 startActivity(ii,translatebundle);
             }
         });
+
+        but11.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                Intent ii=new Intent(getApplicationContext(), link_xm_result.class);
+
+                Bundle translatebundle= ActivityOptions.makeCustomAnimation(getApplicationContext(),
+                        R.anim.slide_in_right,
+                        R.anim.slide_out_left).toBundle();
+
+
+
+                startActivity(ii,translatebundle);
+            }
+        });
+
+        but13.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                Intent ii=new Intent(getApplicationContext(), link_rail_e_tik.class);
+
+                Bundle translatebundle= ActivityOptions.makeCustomAnimation(getApplicationContext(),
+                        R.anim.slide_in_left,
+                        R.anim.slide_out_right).toBundle();
+
+
+
+                startActivity(ii,translatebundle);
+            }
+        });
+
+        but14.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                Intent ii=new Intent(getApplicationContext(), link_bus_tik.class);
+
+                Bundle translatebundle= ActivityOptions.makeCustomAnimation(getApplicationContext(),
+                        R.anim.slide_in_right,
+                        R.anim.slide_out_left).toBundle();
+
+
+
+                startActivity(ii,translatebundle);
+            }
+        });
+        but15.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                Intent ii=new Intent(getApplicationContext(), link_e_namjari.class);
+
+                Bundle translatebundle= ActivityOptions.makeCustomAnimation(getApplicationContext(),
+                        R.anim.slide_in_left,
+                        R.anim.slide_out_right).toBundle();
+
+
+
+                startActivity(ii,translatebundle);
+            }
+        });
+
+        but17.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                Intent ii=new Intent(getApplicationContext(), link_e_tin.class);
+
+                Bundle translatebundle= ActivityOptions.makeCustomAnimation(getApplicationContext(),
+                        R.anim.slide_in_right,
+                        R.anim.slide_out_left).toBundle();
+
+
+
+                startActivity(ii,translatebundle);
+            }
+        });
+
+
 
 
 

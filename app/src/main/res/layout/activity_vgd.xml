@@ -1,4 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:fillViewport="true">
+
+
+
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -33,7 +41,7 @@
                         android:gravity="center"
                         android:background="#d3d3d3" />
                     <TextView
-                        android:text="ভাতাভোগীর নাম"
+                        android:text="উপকার ভোগীর নাম"
                         android:padding="5dp"
                         android:textStyle="bold"
                         android:gravity="center"
@@ -57,7 +65,7 @@
                         android:gravity="center"
                         android:background="#d3d3d3" />
                     <TextView
-                        android:text="মোবাইল নম্বর"
+                        android:text="পরিমাণ"
                         android:padding="5dp"
                         android:textStyle="bold"
                         android:gravity="center"
@@ -72,17 +80,18 @@
                         android:background="@drawable/table_row_border"
                         android:gravity="center" />
                     <TextView
-                        android:text="আব্দুল গনি"
+                        android:text="মনোয়ারা বেগম
+"
                         android:padding="8dp"
                         android:background="@drawable/table_row_border"
                         android:gravity="center" />
                     <TextView
-                        android:text="হামদু মিয়া"
+                        android:text="স্বামী- ইউছুফ আলী"
                         android:padding="8dp"
                         android:background="@drawable/table_row_border"
                         android:gravity="center" />
                     <TextView
-                        android:text="গন্জি"
+                        android:text="গশ্চি"
                         android:padding="8dp"
                         android:background="@drawable/table_row_border"
                         android:gravity="center" />
@@ -92,7 +101,7 @@
                         android:background="@drawable/table_row_border"
                         android:gravity="center" />
                     <TextView
-                        android:text="017xxxxxxxx"
+                        android:text="৩০ কেজি"
                         android:padding="8dp"
                         android:background="@drawable/table_row_border"
                         android:gravity="center" />
@@ -106,17 +115,155 @@
                         android:background="@drawable/table_row_border"
                         android:gravity="center" />
                     <TextView
-                        android:text="নুর আশা"
+                        android:text="জয়নাব বেগম
+"
                         android:padding="8dp"
                         android:background="@drawable/table_row_border"
                         android:gravity="center" />
                     <TextView
-                        android:text="আব্দুর কাদের"
+                        android:text="স্বামী- মোঃ নুরুল ইসলাম
+"
                         android:padding="8dp"
                         android:background="@drawable/table_row_border"
                         android:gravity="center" />
                     <TextView
-                        android:text="গন্জি"
+                        android:text="গশ্চি"
+                        android:padding="8dp"
+                        android:background="@drawable/table_row_border"
+                        android:gravity="center" />
+                    <TextView
+                        android:text="01"
+                        android:padding="8dp"
+                        android:background="@drawable/table_row_border"
+                        android:gravity="center" />
+                    <TextView
+                        android:text="৩০ কেজি"
+                        android:padding="8dp"
+                        android:background="@drawable/table_row_border"
+                        android:gravity="center" />
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:text="02"
+                        android:padding="8dp"
+                        android:background="@drawable/table_row_border"
+                        android:gravity="center" />
+                    <TextView
+                        android:text="লাকী আক্তার
+"
+                        android:padding="8dp"
+                        android:background="@drawable/table_row_border"
+                        android:gravity="center" />
+                    <TextView
+                        android:text="পিতা-মোঃ আবদুল হক
+"
+                        android:padding="8dp"
+                        android:background="@drawable/table_row_border"
+                        android:gravity="center" />
+                    <TextView
+                        android:text="গশ্চি"
+                        android:padding="8dp"
+                        android:background="@drawable/table_row_border"
+                        android:gravity="center" />
+                    <TextView
+                        android:text="01"
+                        android:padding="8dp"
+                        android:background="@drawable/table_row_border"
+                        android:gravity="center" />
+                    <TextView
+                        android:text="৩০ কেজি"
+                        android:padding="8dp"
+                        android:background="@drawable/table_row_border"
+                        android:gravity="center" />
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:text="02"
+                        android:padding="8dp"
+                        android:background="@drawable/table_row_border"
+                        android:gravity="center" />
+                    <TextView
+                        android:text="দিলুয়ারা বেগম
+"
+                        android:padding="8dp"
+                        android:background="@drawable/table_row_border"
+                        android:gravity="center" />
+                    <TextView
+                        android:text="পিতা-মৃত সরু মিয়া
+"
+                        android:padding="8dp"
+                        android:background="@drawable/table_row_border"
+                        android:gravity="center" />
+                    <TextView
+                        android:text="গশ্চি"
+                        android:padding="8dp"
+                        android:background="@drawable/table_row_border"
+                        android:gravity="center" />
+                    <TextView
+                        android:text="01"
+                        android:padding="8dp"
+                        android:background="@drawable/table_row_border"
+                        android:gravity="center" />
+                    <TextView
+                        android:text="৩০ কেজি"
+                        android:padding="8dp"
+                        android:background="@drawable/table_row_border"
+                        android:gravity="center" />
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:text="02"
+                        android:padding="8dp"
+                        android:background="@drawable/table_row_border"
+                        android:gravity="center" />
+                    <TextView
+                        android:text="নুর বানু
+"
+                        android:padding="8dp"
+                        android:background="@drawable/table_row_border"
+                        android:gravity="center" />
+                    <TextView
+                        android:text="পিতা- মৃত হামজু মিয়া
+"
+                        android:padding="8dp"
+                        android:background="@drawable/table_row_border"
+                        android:gravity="center" />
+                    <TextView
+                        android:text="গশ্চি"
+                        android:padding="8dp"
+                        android:background="@drawable/table_row_border"
+                        android:gravity="center" />
+                    <TextView
+                        android:text="01"
+                        android:padding="8dp"
+                        android:background="@drawable/table_row_border"
+                        android:gravity="center" />
+                    <TextView
+                        android:text="৩০ কেজি"
+                        android:padding="8dp"
+                        android:background="@drawable/table_row_border"
+                        android:gravity="center" />
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:text="02"
+                        android:padding="8dp"
+                        android:background="@drawable/table_row_border"
+                        android:gravity="center" />
+                    <TextView
+                        android:text="নীলুয়ারা বেগম
+"
+                        android:padding="8dp"
+                        android:background="@drawable/table_row_border"
+                        android:gravity="center" />
+                    <TextView
+                        android:text="স্বামী- মোঃ নুরু
+"
+                        android:padding="8dp"
+                        android:background="@drawable/table_row_border"
+                        android:gravity="center" />
+                    <TextView
+                        android:text="গশ্চি"
                         android:padding="8dp"
                         android:background="@drawable/table_row_border"
                         android:gravity="center" />
@@ -126,7 +273,142 @@
                         android:background="@drawable/table_row_border"
                         android:gravity="center" />
                     <TextView
-                        android:text="018xxxxxxxx"
+                        android:text="৩০ কেজি"
+                        android:padding="8dp"
+                        android:background="@drawable/table_row_border"
+                        android:gravity="center" />
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:text="02"
+                        android:padding="8dp"
+                        android:background="@drawable/table_row_border"
+                        android:gravity="center" />
+                    <TextView
+                        android:text="জুলেখা বেগম"
+                        android:padding="8dp"
+                        android:background="@drawable/table_row_border"
+                        android:gravity="center" />
+                    <TextView
+                        android:text="স্বামী-মোঃ খালেদ
+"
+                        android:padding="8dp"
+                        android:background="@drawable/table_row_border"
+                        android:gravity="center" />
+                    <TextView
+                        android:text="গশ্চি"
+                        android:padding="8dp"
+                        android:background="@drawable/table_row_border"
+                        android:gravity="center" />
+                    <TextView
+                        android:text="02"
+                        android:padding="8dp"
+                        android:background="@drawable/table_row_border"
+                        android:gravity="center" />
+                    <TextView
+                        android:text="৩০ কেজি
+"
+                        android:padding="8dp"
+                        android:background="@drawable/table_row_border"
+                        android:gravity="center" />
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:text="02"
+                        android:padding="8dp"
+                        android:background="@drawable/table_row_border"
+                        android:gravity="center" />
+                    <TextView
+                        android:text="হালিমা বেগম"
+                        android:padding="8dp"
+                        android:background="@drawable/table_row_border"
+                        android:gravity="center" />
+                    <TextView
+                        android:text="স্বামী- মোঃ আজিজুল হক
+"
+                        android:padding="8dp"
+                        android:background="@drawable/table_row_border"
+                        android:gravity="center" />
+                    <TextView
+                        android:text="গশ্চি"
+                        android:padding="8dp"
+                        android:background="@drawable/table_row_border"
+                        android:gravity="center" />
+                    <TextView
+                        android:text="02"
+                        android:padding="8dp"
+                        android:background="@drawable/table_row_border"
+                        android:gravity="center" />
+                    <TextView
+                        android:text="৩০ কেজি"
+                        android:padding="8dp"
+                        android:background="@drawable/table_row_border"
+                        android:gravity="center" />
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:text="02"
+                        android:padding="8dp"
+                        android:background="@drawable/table_row_border"
+                        android:gravity="center" />
+                    <TextView
+                        android:text="রুপনা আচার্য্য
+"
+                        android:padding="8dp"
+                        android:background="@drawable/table_row_border"
+                        android:gravity="center" />
+                    <TextView
+                        android:text="পিতা- প্রমদ আচার্য্য
+"
+                        android:padding="8dp"
+                        android:background="@drawable/table_row_border"
+                        android:gravity="center" />
+                    <TextView
+                        android:text="গশ্চি"
+                        android:padding="8dp"
+                        android:background="@drawable/table_row_border"
+                        android:gravity="center" />
+                    <TextView
+                        android:text="02"
+                        android:padding="8dp"
+                        android:background="@drawable/table_row_border"
+                        android:gravity="center" />
+                    <TextView
+                        android:text="৩০ কেজি"
+                        android:padding="8dp"
+                        android:background="@drawable/table_row_border"
+                        android:gravity="center" />
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:text="02"
+                        android:padding="8dp"
+                        android:background="@drawable/table_row_border"
+                        android:gravity="center" />
+                    <TextView
+                        android:text="পূর্ণিমা দে
+"
+                        android:padding="8dp"
+                        android:background="@drawable/table_row_border"
+                        android:gravity="center" />
+                    <TextView
+                        android:text="স্বামী-মিলন দে
+"
+                        android:padding="8dp"
+                        android:background="@drawable/table_row_border"
+                        android:gravity="center" />
+                    <TextView
+                        android:text="গশ্চি"
+                        android:padding="8dp"
+                        android:background="@drawable/table_row_border"
+                        android:gravity="center" />
+                    <TextView
+                        android:text="02"
+                        android:padding="8dp"
+                        android:background="@drawable/table_row_border"
+                        android:gravity="center" />
+                    <TextView
+                        android:text="৩০ কেজি"
                         android:padding="8dp"
                         android:background="@drawable/table_row_border"
                         android:gravity="center" />
@@ -140,3 +422,5 @@
     </HorizontalScrollView>
 
 </LinearLayout>
+
+</ScrollView>

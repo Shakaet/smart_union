@@ -33,7 +33,7 @@
                         android:gravity="center"
                         android:background="#d3d3d3" />
                     <TextView
-                        android:text="ভাতাভোগীর নাম"
+                        android:text="নাম"
                         android:padding="5dp"
                         android:textStyle="bold"
                         android:gravity="center"
@@ -45,7 +45,7 @@
                         android:gravity="center"
                         android:background="#d3d3d3" />
                     <TextView
-                        android:text="ঠিকানা"
+                        android:text="গ্রাম"
                         android:padding="5dp"
                         android:textStyle="bold"
                         android:gravity="center"
@@ -57,7 +57,7 @@
                         android:gravity="center"
                         android:background="#d3d3d3" />
                     <TextView
-                        android:text="মোবাইল নম্বর"
+                        android:text="মন্তব্য"
                         android:padding="5dp"
                         android:textStyle="bold"
                         android:gravity="center"
@@ -72,17 +72,19 @@
                         android:background="@drawable/table_row_border"
                         android:gravity="center" />
                     <TextView
-                        android:text="আব্দুল গনি"
+                        android:text="রাখেলা বেগম
+"
                         android:padding="8dp"
                         android:background="@drawable/table_row_border"
                         android:gravity="center" />
                     <TextView
-                        android:text="হামদু মিয়া"
+                        android:text="আবুল
+"
                         android:padding="8dp"
                         android:background="@drawable/table_row_border"
                         android:gravity="center" />
                     <TextView
-                        android:text="গন্জি"
+                        android:text="বাগোয়ান"
                         android:padding="8dp"
                         android:background="@drawable/table_row_border"
                         android:gravity="center" />
@@ -92,7 +94,7 @@
                         android:background="@drawable/table_row_border"
                         android:gravity="center" />
                     <TextView
-                        android:text="017xxxxxxxx"
+                        android:text=""
                         android:padding="8dp"
                         android:background="@drawable/table_row_border"
                         android:gravity="center" />
@@ -106,34 +108,308 @@
                         android:background="@drawable/table_row_border"
                         android:gravity="center" />
                     <TextView
-                        android:text="নুর আশা"
+                        android:text="আফরোজা"
                         android:padding="8dp"
                         android:background="@drawable/table_row_border"
                         android:gravity="center" />
                     <TextView
-                        android:text="আব্দুর কাদের"
+                        android:text="আজিজল
+"
                         android:padding="8dp"
                         android:background="@drawable/table_row_border"
                         android:gravity="center" />
                     <TextView
-                        android:text="গন্জি"
+                        android:text="বাগোয়ান"
                         android:padding="8dp"
                         android:background="@drawable/table_row_border"
                         android:gravity="center" />
                     <TextView
-                        android:text="02"
+                        android:text="01"
                         android:padding="8dp"
                         android:background="@drawable/table_row_border"
                         android:gravity="center" />
                     <TextView
-                        android:text="018xxxxxxxx"
+                        android:text=""
                         android:padding="8dp"
                         android:background="@drawable/table_row_border"
                         android:gravity="center" />
                 </TableRow>
 
-                <!-- Additional rows go here -->
-                <!-- Continue the pattern of adding the new column to each row -->
+                <TableRow>
+                    <TextView
+                        android:text="03"
+                        android:padding="8dp"
+                        android:background="@drawable/table_row_border"
+                        android:gravity="center" />
+                    <TextView
+                        android:text="মেরুনি বেগম
+"
+                        android:padding="8dp"
+                        android:background="@drawable/table_row_border"
+                        android:gravity="center" />
+                    <TextView
+                        android:text="আজিজল"
+                        android:padding="8dp"
+                        android:background="@drawable/table_row_border"
+                        android:gravity="center" />
+                    <TextView
+                        android:text="বাগোয়ান"
+                        android:padding="8dp"
+                        android:background="@drawable/table_row_border"
+                        android:gravity="center" />
+                    <TextView
+                        android:text="01"
+                        android:padding="8dp"
+                        android:background="@drawable/table_row_border"
+                        android:gravity="center" />
+                    <TextView
+                        android:text=""
+                        android:padding="8dp"
+                        android:background="@drawable/table_row_border"
+                        android:gravity="center" />
+                </TableRow>
+
+                <TableRow>
+                    <TextView
+                        android:text="04"
+                        android:padding="8dp"
+                        android:background="@drawable/table_row_border"
+                        android:gravity="center" />
+                    <TextView
+                        android:text="হালিমা আক্তার
+"
+                        android:padding="8dp"
+                        android:background="@drawable/table_row_border"
+                        android:gravity="center" />
+                    <TextView
+                        android:text="আঃ রহমান
+"
+                        android:padding="8dp"
+                        android:background="@drawable/table_row_border"
+                        android:gravity="center" />
+                    <TextView
+                        android:text="বাগোয়ান"
+                        android:padding="8dp"
+                        android:background="@drawable/table_row_border"
+                        android:gravity="center" />
+                    <TextView
+                        android:text="01"
+                        android:padding="8dp"
+                        android:background="@drawable/table_row_border"
+                        android:gravity="center" />
+                    <TextView
+                        android:text=""
+                        android:padding="8dp"
+                        android:background="@drawable/table_row_border"
+                        android:gravity="center" />
+                </TableRow>
+
+                <TableRow>
+                    <TextView
+                        android:text="05"
+                        android:padding="8dp"
+                        android:background="@drawable/table_row_border"
+                        android:gravity="center" />
+                    <TextView
+                        android:text="রাজু আক্তার
+"
+                        android:padding="8dp"
+                        android:background="@drawable/table_row_border"
+                        android:gravity="center" />
+                    <TextView
+                        android:text="হাছেন আলী
+"
+                        android:padding="8dp"
+                        android:background="@drawable/table_row_border"
+                        android:gravity="center" />
+                    <TextView
+                        android:text="বাগোয়ান"
+                        android:padding="8dp"
+                        android:background="@drawable/table_row_border"
+                        android:gravity="center" />
+                    <TextView
+                        android:text="01"
+                        android:padding="8dp"
+                        android:background="@drawable/table_row_border"
+                        android:gravity="center" />
+                    <TextView
+                        android:text=""
+                        android:padding="8dp"
+                        android:background="@drawable/table_row_border"
+                        android:gravity="center" />
+                </TableRow>
+
+                <TableRow>
+                    <TextView
+                        android:text="06"
+                        android:padding="8dp"
+                        android:background="@drawable/table_row_border"
+                        android:gravity="center" />
+                    <TextView
+                        android:text="নাসিমা আক্তার"
+                        android:padding="8dp"
+                        android:background="@drawable/table_row_border"
+                        android:gravity="center" />
+                    <TextView
+                        android:text="দিয়ানত"
+                        android:padding="8dp"
+                        android:background="@drawable/table_row_border"
+                        android:gravity="center" />
+                    <TextView
+                        android:text="বাগোয়ান"
+                        android:padding="8dp"
+                        android:background="@drawable/table_row_border"
+                        android:gravity="center" />
+                    <TextView
+                        android:text="01"
+                        android:padding="8dp"
+                        android:background="@drawable/table_row_border"
+                        android:gravity="center" />
+                    <TextView
+                        android:text=""
+                        android:padding="8dp"
+                        android:background="@drawable/table_row_border"
+                        android:gravity="center" />
+                </TableRow>
+
+                <TableRow>
+                    <TextView
+                        android:text="07"
+                        android:padding="8dp"
+                        android:background="@drawable/table_row_border"
+                        android:gravity="center" />
+                    <TextView
+                        android:text="রশিদ
+"
+                        android:padding="8dp"
+                        android:background="@drawable/table_row_border"
+                        android:gravity="center" />
+                    <TextView
+                        android:text="কফিল
+"
+                        android:padding="8dp"
+                        android:background="@drawable/table_row_border"
+                        android:gravity="center" />
+                    <TextView
+                        android:text="বাগোয়ান"
+                        android:padding="8dp"
+                        android:background="@drawable/table_row_border"
+                        android:gravity="center" />
+                    <TextView
+                        android:text="01"
+                        android:padding="8dp"
+                        android:background="@drawable/table_row_border"
+                        android:gravity="center" />
+                    <TextView
+                        android:text=""
+                        android:padding="8dp"
+                        android:background="@drawable/table_row_border"
+                        android:gravity="center" />
+                </TableRow>
+
+                <TableRow>
+                    <TextView
+                        android:text="08"
+                        android:padding="8dp"
+                        android:background="@drawable/table_row_border"
+                        android:gravity="center" />
+                    <TextView
+                        android:text="সইদার"
+                        android:padding="8dp"
+                        android:background="@drawable/table_row_border"
+                        android:gravity="center" />
+                    <TextView
+                        android:text="গফুর
+"
+                        android:padding="8dp"
+                        android:background="@drawable/table_row_border"
+                        android:gravity="center" />
+                    <TextView
+                        android:text="বাগোয়ান"
+                        android:padding="8dp"
+                        android:background="@drawable/table_row_border"
+                        android:gravity="center" />
+                    <TextView
+                        android:text="01"
+                        android:padding="8dp"
+                        android:background="@drawable/table_row_border"
+                        android:gravity="center" />
+                    <TextView
+                        android:text=""
+                        android:padding="8dp"
+                        android:background="@drawable/table_row_border"
+                        android:gravity="center" />
+                </TableRow>
+
+                <TableRow>
+                    <TextView
+                        android:text="09"
+                        android:padding="8dp"
+                        android:background="@drawable/table_row_border"
+                        android:gravity="center" />
+                    <TextView
+                        android:text="সোনা মিয়া
+"
+                        android:padding="8dp"
+                        android:background="@drawable/table_row_border"
+                        android:gravity="center" />
+                    <TextView
+                        android:text="বাহুবল
+"
+                        android:padding="8dp"
+                        android:background="@drawable/table_row_border"
+                        android:gravity="center" />
+                    <TextView
+                        android:text="বাগোয়ান"
+                        android:padding="8dp"
+                        android:background="@drawable/table_row_border"
+                        android:gravity="center" />
+                    <TextView
+                        android:text="01"
+                        android:padding="8dp"
+                        android:background="@drawable/table_row_border"
+                        android:gravity="center" />
+                    <TextView
+                        android:text=""
+                        android:padding="8dp"
+                        android:background="@drawable/table_row_border"
+                        android:gravity="center" />
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:text="10"
+                        android:padding="8dp"
+                        android:background="@drawable/table_row_border"
+                        android:gravity="center" />
+                    <TextView
+                        android:text="জালাল"
+                        android:padding="8dp"
+                        android:background="@drawable/table_row_border"
+                        android:gravity="center" />
+                    <TextView
+                        android:text="ময়েজ
+"
+                        android:padding="8dp"
+                        android:background="@drawable/table_row_border"
+                        android:gravity="center" />
+                    <TextView
+                        android:text="বাগোয়ান"
+                        android:padding="8dp"
+                        android:background="@drawable/table_row_border"
+                        android:gravity="center" />
+                    <TextView
+                        android:text="01"
+                        android:padding="8dp"
+                        android:background="@drawable/table_row_border"
+                        android:gravity="center" />
+                    <TextView
+                        android:text=""
+                        android:padding="8dp"
+                        android:background="@drawable/table_row_border"
+                        android:gravity="center" />
+                </TableRow>
+
+
 
             </TableLayout>
         </ScrollView>

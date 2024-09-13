@@ -25,7 +25,7 @@ public class link_xm_result extends AppCompatActivity {
         WebSettings webSettings=webview.getSettings();
         webSettings.setJavaScriptEnabled(true);
 
-        webview.loadUrl("http://www.educationboardresults.gov.bd");
+        webview.loadUrl("https://examsresultinfo.com/");
 
     }
 }

@@ -25,7 +25,9 @@ public class link_e_namjari extends AppCompatActivity {
         WebSettings webSettings=webview.getSettings();
         webSettings.setJavaScriptEnabled(true);
 
-        webview.loadUrl("https://mutation.land.gov.bd/");
+        webview.loadUrl("https://land.gov.bd/%" +
+                "E0%A6%A8%E0%A6%BE%E0%A6%AE%E0%A6%9C%E0%A6%BE%E0%A6" +
+                "%B0%E0%A6%BF-%E0%A6%B8%E0%A7%87%E0%A6%AC%E0%A6%BE/");
 
     }
 }

@@ -63,7 +63,7 @@
                 android:background="#d3d3d3" />
 
             <TextView
-                android:text="ওয়ার্ড নং"
+                android:text="বহি নং"
                 android:padding="5dp"
                 android:textStyle="bold"
                 android:gravity="center"
@@ -89,7 +89,7 @@
                 android:background="@drawable/table_row_border"
                 android:gravity="center" />
             <TextView
-                android:text="গন্জি"
+                android:text="গশ্চি"
                 android:padding="8dp"
                 android:background="@drawable/table_row_border"
                 android:gravity="center" />
@@ -99,7 +99,7 @@
                 android:background="@drawable/table_row_border"
                 android:gravity="center" />
             <TextView
-                android:text="01"
+                android:text="৪৫৭৯"
                 android:padding="8dp"
                 android:background="@drawable/table_row_border"
                 android:gravity="center" />
@@ -124,7 +124,7 @@
                 android:background="@drawable/table_row_border"
                 android:gravity="center" />
             <TextView
-                android:text="গন্জি"
+                android:text="গশ্চি"
                 android:padding="8dp"
                 android:background="@drawable/table_row_border"
                 android:gravity="center" />
@@ -134,7 +134,7 @@
                 android:background="@drawable/table_row_border"
                 android:gravity="center" />
             <TextView
-                android:text="01"
+                android:text="৫৮৯৭"
                 android:padding="8dp"
                 android:background="@drawable/table_row_border"
                 android:gravity="center" />
@@ -159,7 +159,7 @@
                 android:background="@drawable/table_row_border"
                 android:gravity="center" />
             <TextView
-                android:text="গন্জি"
+                android:text="গশ্চি"
                 android:padding="8dp"
                 android:background="@drawable/table_row_border"
                 android:gravity="center" />
@@ -169,7 +169,7 @@
                 android:background="@drawable/table_row_border"
                 android:gravity="center" />
             <TextView
-                android:text="01"
+                android:text="১০৮৫"
                 android:padding="8dp"
                 android:background="@drawable/table_row_border"
                 android:gravity="center" />
@@ -192,7 +192,7 @@
                 android:background="@drawable/table_row_border"
                 android:gravity="center" />
             <TextView
-                android:text="গন্জি"
+                android:text="গশ্চি"
                 android:padding="8dp"
                 android:background="@drawable/table_row_border"
                 android:gravity="center" />
@@ -202,7 +202,7 @@
                 android:background="@drawable/table_row_border"
                 android:gravity="center" />
             <TextView
-                android:text="01"
+                android:text="৪৫৮১"
                 android:padding="8dp"
                 android:background="@drawable/table_row_border"
                 android:gravity="center" />
@@ -225,7 +225,7 @@
                 android:background="@drawable/table_row_border"
                 android:gravity="center" />
             <TextView
-                android:text="গন্জি"
+                android:text="গশ্চি"
                 android:padding="8dp"
                 android:background="@drawable/table_row_border"
                 android:gravity="center" />
@@ -235,7 +235,7 @@
                 android:background="@drawable/table_row_border"
                 android:gravity="center" />
             <TextView
-                android:text="01"
+                android:text="১২৬২"
                 android:padding="8dp"
                 android:background="@drawable/table_row_border"
                 android:gravity="center" />
@@ -259,7 +259,7 @@
                 android:background="@drawable/table_row_border"
                 android:gravity="center" />
             <TextView
-                android:text="গন্জি"
+                android:text="গশ্চি"
                 android:padding="8dp"
                 android:background="@drawable/table_row_border"
                 android:gravity="center" />
@@ -269,7 +269,7 @@
                 android:background="@drawable/table_row_border"
                 android:gravity="center" />
             <TextView
-                android:text="01"
+                android:text="৩৮৮৪"
                 android:padding="8dp"
                 android:background="@drawable/table_row_border"
                 android:gravity="center" />
@@ -293,7 +293,7 @@
                 android:background="@drawable/table_row_border"
                 android:gravity="center" />
             <TextView
-                android:text="গন্জি"
+                android:text="গশ্চি"
                 android:padding="8dp"
                 android:background="@drawable/table_row_border"
                 android:gravity="center" />
@@ -303,7 +303,7 @@
                 android:background="@drawable/table_row_border"
                 android:gravity="center" />
             <TextView
-                android:text="01"
+                android:text="৫৮৯৮"
                 android:padding="8dp"
                 android:background="@drawable/table_row_border"
                 android:gravity="center" />
@@ -327,7 +327,7 @@
                 android:background="@drawable/table_row_border"
                 android:gravity="center" />
             <TextView
-                android:text="গন্জি"
+                android:text="গশ্চি"
                 android:padding="8dp"
                 android:background="@drawable/table_row_border"
                 android:gravity="center" />
@@ -337,7 +337,7 @@
                 android:background="@drawable/table_row_border"
                 android:gravity="center" />
             <TextView
-                android:text="01"
+                android:text="১৩২২(১)"
                 android:padding="8dp"
                 android:background="@drawable/table_row_border"
                 android:gravity="center" />
@@ -360,7 +360,7 @@
                 android:background="@drawable/table_row_border"
                 android:gravity="center" />
             <TextView
-                android:text="গন্জি"
+                android:text="গশ্চি"
                 android:padding="8dp"
                 android:background="@drawable/table_row_border"
                 android:gravity="center" />
@@ -370,7 +370,7 @@
                 android:background="@drawable/table_row_border"
                 android:gravity="center" />
             <TextView
-                android:text="01"
+                android:text="১২৬১"
                 android:padding="8dp"
                 android:background="@drawable/table_row_border"
                 android:gravity="center" />
@@ -393,7 +393,7 @@
                 android:background="@drawable/table_row_border"
                 android:gravity="center" />
             <TextView
-                android:text="গন্জি"
+                android:text="গশ্চি"
                 android:padding="8dp"
                 android:background="@drawable/table_row_border"
                 android:gravity="center" />
@@ -403,7 +403,7 @@
                 android:background="@drawable/table_row_border"
                 android:gravity="center" />
             <TextView
-                android:text="01"
+                android:text="৩৮৮৫"
                 android:padding="8dp"
                 android:background="@drawable/table_row_border"
                 android:gravity="center" />

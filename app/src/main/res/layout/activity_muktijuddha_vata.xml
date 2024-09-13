@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:fillViewport="true">
+
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".muktijuddha_vata">
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="horizontal">
+
+        <TableLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:stretchColumns="*"
+            android:padding="1dp"
+            android:background="#FFFFFF">
+
+            <!-- Header Row -->
+
+                <TextView
+                    android:text="মুক্তিযোদ্ধা ভাতা"
+                    android:padding="5dp"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:background="#d3d3d3"/>
+
+            <!-- First Data Row -->
+            <TableRow>
+                <TextView
+                    android:text="0204100001"
+                    android:padding="8dp"
+                    android:background="@drawable/table_row_border"
+                    android:gravity="center" />
+                <TextView
+                    android:text="মৃত প্রিয়তোষবড়ুয়া"
+                    android:padding="8dp"
+                    android:background="@drawable/table_row_border"
+                    android:gravity="center" />
+                <TextView
+                    android:text="মৃত সুরেন্দ্রলাল বড়ুয়া"
+                    android:padding="8dp"
+                    android:background="@drawable/table_row_border"
+                    android:gravity="center" />
+                <TextView
+                    android:text="রাউজান"
+                    android:padding="8dp"
+                    android:background="@drawable/table_row_border"
+                    android:gravity="center" />
+                <TextView
+                    android:text="চট্টগ্রাম"
+                    android:padding="8dp"
+                    android:background="@drawable/table_row_border"
+                    android:gravity="center" />
+
+            </TableRow>
+
+            <!-- Second Data Row -->
+            <TableRow>
+                <TextView
+                    android:text="0204100002"
+                    android:padding="8dp"
+                    android:background="@drawable/table_row_border"
+                    android:gravity="center" />
+                <TextView
+                    android:text="বাদলকান্তিবড়ুয়া"
+                    android:padding="8dp"
+                    android:background="@drawable/table_row_border"
+                    android:gravity="center" />
+                <TextView
+                    android:text="মৃত শরৎচন্দ্র বড়ুয়া"
+                    android:padding="8dp"
+                    android:background="@drawable/table_row_border"
+                    android:gravity="center" />
+                <TextView
+                    android:text="রাউজান"
+                    android:padding="8dp"
+                    android:background="@drawable/table_row_border"
+                    android:gravity="center" />
+                <TextView
+                    android:text="চট্টগ্রাম"
+                    android:padding="8dp"
+                    android:background="@drawable/table_row_border"
+                    android:gravity="center" />
+
+
+            </TableRow>
+
+            <!-- Additional rows can be added similarly -->
+            <TableRow>
+                <TextView
+                    android:text="0204100003"
+                    android:padding="8dp"
+                    android:background="@drawable/table_row_border"
+                    android:gravity="center" />
+                <TextView
+                    android:text="বুদ্ধিসত্তাবড়ুয়া"
+                    android:padding="8dp"
+                    android:background="@drawable/table_row_border"
+                    android:gravity="center" />
+                <TextView
+                    android:text="স্বর্গীয় নিরেন্দ্রলাল বড়ুয়া"
+                    android:padding="8dp"
+                    android:background="@drawable/table_row_border"
+                    android:gravity="center" />
+                <TextView
+                    android:text="রাউজান"
+                    android:padding="8dp"
+                    android:background="@drawable/table_row_border"
+                    android:gravity="center" />
+                <TextView
+                    android:text="চট্টগ্রাম"
+                    android:padding="8dp"
+                    android:background="@drawable/table_row_border"
+                    android:gravity="center" />
+
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:text="0204100004"
+                    android:padding="8dp"
+                    android:background="@drawable/table_row_border"
+                    android:gravity="center" />
+                <TextView
+                    android:text="যীশুকুমারবড়ুয়া"
+                    android:padding="8dp"
+                    android:background="@drawable/table_row_border"
+                    android:gravity="center" />
+                <TextView
+                    android:text="আশাবরন বড়ুয়া"
+                    android:padding="8dp"
+                    android:background="@drawable/table_row_border"
+                    android:gravity="center" />
+                <TextView
+                    android:text="রাউজান"
+                    android:padding="8dp"
+                    android:background="@drawable/table_row_border"
+                    android:gravity="center" />
+                <TextView
+                    android:text="চট্টগ্রাম"
+                    android:padding="8dp"
+                    android:background="@drawable/table_row_border"
+                    android:gravity="center" />
+
+
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:text="0204100005"
+                    android:padding="8dp"
+                    android:background="@drawable/table_row_border"
+                    android:gravity="center" />
+                <TextView
+                    android:text="মৃত খগেন্দ্রলালবড়ুয়া"
+                    android:padding="8dp"
+                    android:background="@drawable/table_row_border"
+                    android:gravity="center" />
+                <TextView
+                    android:text="মৃত সতীশচন্দ্র বড়ুয়া"
+                    android:padding="8dp"
+                    android:background="@drawable/table_row_border"
+                    android:gravity="center" />
+                <TextView
+                    android:text="রাউজান"
+                    android:padding="8dp"
+                    android:background="@drawable/table_row_border"
+                    android:gravity="center" />
+                <TextView
+                    android:text="চট্টগ্রাম"
+                    android:padding="8dp"
+                    android:background="@drawable/table_row_border"
+                    android:gravity="center" />
+
+
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:text="0204100006"
+                    android:padding="8dp"
+                    android:background="@drawable/table_row_border"
+                    android:gravity="center" />
+                <TextView
+                    android:text="মোঃ শামসুল আলম"
+                    android:padding="8dp"
+                    android:background="@drawable/table_row_border"
+                    android:gravity="center" />
+                <TextView
+                    android:text="মৃত আবদুল কাদের
+
+"
+                    android:padding="8dp"
+                    android:background="@drawable/table_row_border"
+                    android:gravity="center" />
+                <TextView
+                    android:text="রাউজান"
+                    android:padding="8dp"
+                    android:background="@drawable/table_row_border"
+                    android:gravity="center" />
+                <TextView
+                    android:text="চট্টগ্রাম"
+                    android:padding="8dp"
+                    android:background="@drawable/table_row_border"
+                    android:gravity="center" />
+
+
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:text="0204100007"
+                    android:padding="8dp"
+                    android:background="@drawable/table_row_border"
+                    android:gravity="center" />
+                <TextView
+                    android:text="মৃত বিরন্দ্রমজুমদার"
+                    android:padding="8dp"
+                    android:background="@drawable/table_row_border"
+                    android:gravity="center" />
+                <TextView
+                    android:text="মৃত বগলা চরণ মজুমদার
+"
+                    android:padding="8dp"
+                    android:background="@drawable/table_row_border"
+                    android:gravity="center" />
+                <TextView
+                    android:text="রাউজান"
+                    android:padding="8dp"
+                    android:background="@drawable/table_row_border"
+                    android:gravity="center" />
+                <TextView
+                    android:text="চট্টগ্রাম"
+                    android:padding="8dp"
+                    android:background="@drawable/table_row_border"
+                    android:gravity="center" />
+
+
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:text="0204100008"
+                    android:padding="8dp"
+                    android:background="@drawable/table_row_border"
+                    android:gravity="center" />
+                <TextView
+                    android:text="মৃত দুলামিয়া
+"
+                    android:padding="8dp"
+                    android:background="@drawable/table_row_border"
+                    android:gravity="center" />
+                <TextView
+                    android:text="মৃত গনু মিয়া
+
+"
+                    android:padding="8dp"
+                    android:background="@drawable/table_row_border"
+                    android:gravity="center" />
+                <TextView
+                    android:text="রাউজান"
+                    android:padding="8dp"
+                    android:background="@drawable/table_row_border"
+                    android:gravity="center" />
+                <TextView
+                    android:text="চট্টগ্রাম"
+                    android:padding="8dp"
+                    android:background="@drawable/table_row_border"
+                    android:gravity="center" />
+
+
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:text="0204100009"
+                    android:padding="8dp"
+                    android:background="@drawable/table_row_border"
+                    android:gravity="center" />
+                <TextView
+                    android:text="সন্তোষবিকাশবড়ুয়া"
+                    android:padding="8dp"
+                    android:background="@drawable/table_row_border"
+                    android:gravity="center" />
+                <TextView
+                    android:text="মৃত মনমোহন বড়ুয়া
+"
+                    android:padding="8dp"
+                    android:background="@drawable/table_row_border"
+                    android:gravity="center" />
+                <TextView
+                    android:text="রাউজান"
+                    android:padding="8dp"
+                    android:background="@drawable/table_row_border"
+                    android:gravity="center" />
+                <TextView
+                    android:text="চট্টগ্রাম"
+                    android:padding="8dp"
+                    android:background="@drawable/table_row_border"
+                    android:gravity="center" />
+
+
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:text="02041000010"
+                    android:padding="8dp"
+                    android:background="@drawable/table_row_border"
+                    android:gravity="center" />
+                <TextView
+                    android:text="মৃত আব্বাসআলী"
+                    android:padding="8dp"
+                    android:background="@drawable/table_row_border"
+                    android:gravity="center" />
+                <TextView
+                    android:text="মৃত ওমর আলী"
+                    android:padding="8dp"
+                    android:background="@drawable/table_row_border"
+                    android:gravity="center" />
+                <TextView
+                    android:text="রাউজান"
+                    android:padding="8dp"
+                    android:background="@drawable/table_row_border"
+                    android:gravity="center" />
+                <TextView
+                    android:text="চট্টগ্রাম"
+                    android:padding="8dp"
+                    android:background="@drawable/table_row_border"
+                    android:gravity="center" />
+
+
+            </TableRow>
+        </TableLayout>
+
+    </HorizontalScrollView>
+
+</LinearLayout>
+
+</ScrollView>

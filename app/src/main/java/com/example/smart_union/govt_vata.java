@@ -125,6 +125,23 @@ public class govt_vata extends AppCompatActivity {
             }
         });
 
+        but1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                Intent ii=new Intent(getApplicationContext(), muktijuddha_vata.class);
+
+                Bundle translatebundle= ActivityOptions.makeCustomAnimation(getApplicationContext(),
+                        R.anim.slide_in_left,
+                        R.anim.slide_out_right).toBundle();
+
+
+
+                startActivity(ii,translatebundle);
+            }
+        });
+
+
 
 
     }
